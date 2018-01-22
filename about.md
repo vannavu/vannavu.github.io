@@ -8,7 +8,7 @@ layout: default
 >![portrait](/images/portrait.jpg)  
 vannavu5539@gmail.com  
 [instagram](http://instagram.com/vanna_vu){:target="_blank}: vanna_vu  
-[r&egrave;sum&egrave;](/documents/resume_spring17_vannavu.pdf){:target="_blank"}     
+[r&eacute;sum&eacute;](/documents/resume_spring17_vannavu.pdf){:target="_blank"}     
 
 ## Vanna is currently a junior studying Communication Design at Washington University in St. Louis. She works to change how our world looks and to change how people look at the world. Each project aims to teach, inform, and delight. Particularly she enjoys developing visual and interactive systems for printed matter, digital environments, and physical spaces.  
 
