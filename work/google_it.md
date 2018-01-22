@@ -27,6 +27,7 @@ The Google interface and Apple store were hijacked to change their pragmatic or 
 
 <p class="fill"><img src="../images/google_it/gi05.jpg"></p>
 ###### &mdash; participants can share their searches on the screens
+
 <p class="fill"><img src="../images/google_it/gi03.jpg" class="half_left"><img src="../images/google_it/gi04.jpg" class="half_right"></p>
 ###### &mdash; different devices offer different experiences
 

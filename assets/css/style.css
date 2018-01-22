@@ -428,7 +428,7 @@ footer a:hover {
 	}
 
 	blockquote {
-		margin-bottom: 16px;
+		margin-bottom: 32px;
 	}
 
 	h1 {
@@ -444,7 +444,12 @@ footer a:hover {
 	}
 
 	h6 {
+		width: 100%;
 		margin: -16px 0 16px 0;
+	}
+
+	.half_left, .half_right {
+		margin-bottom: 24px;
 	}
 
 	iframe {
