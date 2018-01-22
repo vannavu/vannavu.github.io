@@ -94,7 +94,6 @@ main img, main p, h2, h4, iframe, .box, .back, .top {
 h1 {
 	margin: 0;
 	border-bottom: 1px solid black;
-	line-height: .35em;
 	margin-bottom: 18px;
 	-webkit-animation: fadeInLeft 2s;
 	animation: fadeInLeft 2s;
@@ -109,17 +108,19 @@ h1 span {
 	font-weight: 600;
 	font-size: 18px;
 	text-transform: uppercase;
-	padding-right: 20px;
+	padding-right: 10px;
 	letter-spacing: .175em;
+	position: relative;
+	top: 18px;
 }
 
 #date {
 	position: relative;
 	float: right;
-	top: 7px;
+	top: 38px;
 	font-weight: 300;
 	font-size: 15px;
-	padding-left: 20px;
+	padding-left: 10px;
 	font-family: "source-sans-pro", monospace;
 }
 
