@@ -286,7 +286,7 @@ footer a:hover {
 .fa-instagram, .fa-envelope-o {
 	position: relative;
 	float: right;
-	top: -12px;
+	top: -11px;
 	z-index: 1;
 	background: white;
 }
