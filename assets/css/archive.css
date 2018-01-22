@@ -80,7 +80,8 @@
         padding-top: 20%;
     }
     .modal-content {
-        width: 98%;
+        max-width: 90%;
+        max-height: 80%;
     }
     #caption {
         width: 90%;
