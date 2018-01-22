@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <link rel="stylesheet" href="{{ "/assets/css/archive.css" | relative_url }}">
+
+  <body>
+
+    <div class="wrapper">
+      {% include header.html %}
+    </div>
+
+      <main class="page-content" aria-label="Content">
+        <div class="wrapper">{{ content }}</div>
+
+        <div class="wrapper_boxes">
+        
+          <div class="column">
+             <img src="../images/archive/mixCD_knowtheway.jpg" class="enlarge" alt="mix CD with lyric book and sleeve (2013)">
+             <img src="../images/archive/nervousnate.jpg" class="enlarge" alt="Nervous Nate">
+             <img src="../images/archive/maze.png" class="enlarge" alt="MAZE type specimen book (2016), letterpress printed with cut vinyl letters">
+          </div>
+
+          <div class="column">
+              <img src="../images/archive/ageofadz_cover.jpg" class="enlarge" alt="The Age of Adz lyric book (2016), handcut stencils inspired by Josef Albers">
+              <img src="../images/archive/vsa.jpg" class="enlarge" alt="WashU VSA logo (2017)">
+          </div>
+
+          <div class="column">
+             <img src="../images/archive/badcomm.jpg" class="enlarge" alt="digital redo of a page from Age of Adz lyric book (2017)">
+          </div>
+        
+        </div>
+
+      </main>
+
+    <div class="wrapper">
+      {% include footer.html %}
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <div id="myModal" class="modal">
+        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+    <script>
+      var modal = document.getElementById('myModal');
+      var img = $('.enlarge');
+      var modalImg = $('#img01');
+      var captionText = document.getElementById("caption");
+      $('.enlarge').click(function(){
+        modal.style.display = "block";
+        var newSrc = this.src;
+        modalImg.attr('src', newSrc);
+        captionText.innerHTML = this.alt;
+      });
+      var span = document.getElementsByClassName("close")[0];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+  </script>
+  </body>
+
+</html>

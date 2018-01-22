@@ -1,0 +1,469 @@
+@import url("https://use.typekit.net/mqb3eja.css");
+
+/* gray: #A2AEAF;*/
+
+html {
+	height: 100%;
+}
+
+body {
+	background: white;
+	font-family: "source-sans-pro", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	display: flex;
+	min-height: 100%;
+	flex-direction: column;
+}
+
+.wrapper {
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	max-width: 900px;
+	width: 96%;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+img {
+	width: 100%;
+}
+
+::selection {
+    background-color: #EAEDED;
+}
+
+header {
+	margin: 100px 0 120px 0;
+}
+
+.name_plate {
+	display: inline-block;
+	vertical-align: top;
+	width: 90%;
+	padding: 0;
+}
+
+.menu.small {
+	display: none;
+}
+
+.menu {
+	vertical-align: top;
+	width: 10%; 
+	display: inline-block;
+}
+
+.menu ul {
+	list-style: none;
+	padding: 0;
+	padding-left: 40px;
+	margin: 0;
+}
+
+.menu li {
+	line-height: .8em;
+	padding: 0;
+	margin: 0;
+}
+
+.menu a {
+	vertical-align: text-top;
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	-webkit-text-decoration: underline red;
+	text-decoration: underline red;
+}
+
+main {
+	flex: 1;
+	min-height: 100%;
+}
+
+main img, main p, h2, h4, iframe, .box, .back, .top {
+	-webkit-animation: fadeInUp 2.5s;
+	animation: fadeInUp 2.5s;
+}
+
+h1 {
+	margin: 0;
+	border-bottom: 1px solid black;
+	line-height: .35em;
+	margin-bottom: 18px;
+	-webkit-animation: fadeInLeft 2s;
+	animation: fadeInLeft 2s;
+}
+
+h1 span {
+	background: white;
+}
+
+#title {
+	font-family: "ff-basic-gothic-pro", sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding-right: 20px;
+	letter-spacing: .175em;
+}
+
+#date {
+	position: relative;
+	float: right;
+	top: 7px;
+	font-weight: 300;
+	font-size: 15px;
+	padding-left: 20px;
+	font-family: "source-sans-pro", monospace;
+}
+
+h2 {
+	font-weight: 300;
+	font-family: "source-code-pro", monospace;
+	font-size: 21px;
+	line-height: 1.75em;
+	color: #A2AEAF;
+	margin: 0 0 16px 0;
+	display: inline-block;
+	width: 66.64%;
+	float: right;
+}
+
+/* etc. page "coming soon" */
+h4 {
+	font-family: "source-code-pro", monospace;
+	font-size: 36px;
+	color: #A2AEAF;
+	text-align: center;
+}
+
+/* left column captions */
+h5 {
+	font-family: "ff-basic-gothic-pro", sans-serif;
+	text-align: right;
+	font-size: 13px;
+	margin: -10px 0 0 0;
+	font-weight: 200;
+	-webkit-animation: fadeInRight 3s;
+	animation: fadeInRight 3s;
+}
+
+/* right column captions */
+h6 {
+	width: 66.64%;
+	float: right;
+	font-family: "ff-basic-gothic-pro", sans-serif;
+	text-align: right;
+	font-size: 13px;
+	margin: -16px 0 16px 0;
+	font-weight: 200;
+	-webkit-animation: fadeInRight 3s;
+	animation: fadeInRight 3s;
+}
+
+a {
+	-webkit-text-decoration-color: #A2AEAF;
+	text-decoration-color: #A2AEAF;
+	color: black;
+}
+
+a:hover {
+	-webkit-text-decoration-color: red;
+	text-decoration-color: red;
+}
+
+/* YouTube videos */
+iframe {
+	width: 100%;
+	margin: 16px 0;
+}
+
+main p {
+	line-height: 1.6em;
+	margin: 0 0 16px 0;
+	display: inline-block;
+	width: 66.64%;
+	float: right;
+}
+
+/* left column */
+blockquote {
+	width: 28%;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	float: left;
+	-webkit-animation: fadeInLeft 3s;
+	animation: fadeInLeft 3s;
+}
+
+blockquote p {
+	padding: 0;
+	width: 100%;
+	float: left;
+	margin: 0;
+}
+
+blockquote img {
+	margin-bottom: 16px;
+}
+
+/* sizing */
+.fill {
+	padding: 0;
+	width: 100%;
+	float: none;
+	margin: 16px 0;
+}
+
+.half_left {
+	width: 48.34%;
+	float: left;
+	
+}
+
+.half_right {
+	width: 48.34%;
+	float: right;
+	
+}
+
+/* bottom navigation */
+.back, .top {
+	margin: 6em 0 -6em 0;
+	font-family: "ff-basic-gothic-pro", sans-serif;
+	font-weight: 600;
+	letter-spacing: .15em;
+	text-decoration: none;
+	font-size: 13px;
+	color: black;
+}
+
+a.top {
+	float: right;
+}
+
+a.back {
+	float: left;
+}
+
+.back:hover, .top:hover {
+	-webkit-text-decoration: underline red;
+	text-decoration: underline red;
+}
+
+footer {
+	margin: 6em 0 0 0;
+	-webkit-animation: fadeInLeft 3s;
+	animation: fadeInLeft 3s;
+	border-top: 1px solid black;
+}
+
+footer a {
+	color: black;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: red;
+}
+
+.fa-github {
+	position: relative;
+	top: -12px;
+	z-index: 1;
+	background: white;
+	padding-right: 10px;
+}
+
+.fa-instagram, .fa-envelope-o {
+	position: relative;
+	float: right;
+	top: -12px;
+	z-index: 1;
+	background: white;
+}
+
+.fa-instagram {
+	padding-left: 5px;
+}
+
+.fa-envelope-o {
+	padding-left: 10px;
+}
+
+/* animations */
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translate(0,100%);
+	}
+	to:	{
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@-webkit-keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translate(0,100%);
+	}
+	to:	{
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@keyframes fadeInLeft {
+	from {
+		opacity: 0;
+		transform: translate(-100%,0);
+	}
+	to:	{
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@-webkit-keyframes fadeInLeft {
+	from {
+		opacity: 0;
+		transform: translate(-100%,0);
+	}
+	to:	{
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@keyframes fadeInRight {
+	from {
+		opacity: 0;
+		transform: translate(100%,0);
+	}
+	to:	{
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@-webkit-keyframes fadeInRight {
+	from {
+		opacity: 0;
+		transform: translate(100%,0);
+	}
+	to:	{
+		opacity: 1;
+		transform: none;
+	}
+}
+
+/* for About */
+#about {
+	margin-bottom: 32px;
+}
+
+#portrait {
+	margin-bottom: 4px;
+}
+
+/* for Prompt */
+#card {
+	margin: 0;
+}
+#card:hover {
+	content: url('../../images/prompt/p14.jpg')
+}
+
+@media (max-width: 700px) {
+	.name_plate, .menu.small, blockquote, main p, h2, h4, h6 {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+
+	.menu.big {
+		display: none;
+	}
+
+	header {
+		margin: 0 0 32px 0;
+	}
+
+	.name_plate {
+		padding: 72px 0 21px 0;
+		border-top: 1px solid black;
+	}
+
+	.name_plate img {
+		display: block;
+		margin: auto;
+		content: url("/images/name_plate_mobile.svg");
+		width: 94%;
+	}
+
+	.menu.small ul {
+		display: flex;
+		justify-content: space-between;
+		padding: 0;
+		margin: 12px 0 -12px 0;
+	}
+
+	.menu.small ul li {
+		display: inline-block;
+		padding: 0 10px;
+		background: white;
+	}
+
+	.wrapper {
+		width: 96%;
+	}
+
+	#title {
+		padding-right: 6px;
+	}
+
+	#date {
+		display: none;
+	}
+
+	blockquote {
+		margin-bottom: 16px;
+	}
+
+	h1 {
+		margin-bottom: 28px;
+	}
+
+	h2 {
+		line-height: 1.4em;
+	}
+
+	h5 {
+		margin: 0 0 16px 0;
+	}
+
+	h6 {
+		margin: -16px 0 16px 0;
+	}
+
+	iframe {
+		height: auto;
+	}
+
+	.back, .top {
+		margin-top: 3em;
+	}
+
+	footer {
+		margin: 21px 0 -10px 0;
+	}
+
+}

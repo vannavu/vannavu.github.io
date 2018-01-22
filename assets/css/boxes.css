@@ -1,0 +1,99 @@
+.wrapper_boxes {
+	max-width: 930px;
+	width: 96%;
+	margin: auto;
+	margin-bottom: 100px;
+}
+
+.box {
+	float: left;
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	border-bottom: 3px solid white;
+	transition: .5s;
+}
+
+.column {
+	float: left;
+	width: 30%;
+	margin: 1.66%;
+}
+
+.column img {
+	margin-bottom: 9%;
+	transition: .5s;
+}
+
+.box:hover/*, .column img:hover*/ {
+	opacity: .6;
+	border-bottom: 3px solid red;
+	transition: 1s;
+}
+
+#one {
+	background: url(../../images/thumbnails/prompt.jpg) no-repeat center;
+	background-size: contain;
+}
+
+#two {
+	background: url(../../images/thumbnails/vitamin_box.jpg) no-repeat center;
+	background-size: contain;
+}
+
+#three {
+	background: url(../../images/thumbnails/google_it.jpg) no-repeat center;
+	background-size: contain;
+}
+
+#four {
+	background: url(../../images/thumbnails/1984.jpg) no-repeat center;
+	background-size: contain;
+}
+
+#five {
+	background: url(../../images/thumbnails/calendar.jpg) no-repeat center;
+	background-size: contain;
+}
+
+#six {
+	background: url(../../images/thumbnails/univers.jpg) no-repeat center;
+	background-size: contain;
+}
+
+#seven {
+	background: url(../../images/thumbnails/rockets.jpg) no-repeat center;
+	background-size: contain;
+}
+
+#eight {
+	background: url(../../images/thumbnails/museum_brochure.jpg) no-repeat center;
+	background-size: contain;
+}
+
+#nine {
+	background: url(../../images/thumbnails/business_card.jpg) no-repeat center;
+	background-size: contain;
+}
+
+@media (max-width: 700px) {
+	.wrapper_boxes {
+		width: 96%;
+		margin-bottom: 3em;
+	}
+	.box {
+		width: 100%;
+		padding-bottom: 100%;
+		float: none;
+		margin: 0 0 16px 0;
+	}
+	.column {
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+
+	.column img {
+		margin-bottom: 16px;
+	}
+}
