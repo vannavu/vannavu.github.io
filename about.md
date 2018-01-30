@@ -6,8 +6,7 @@ layout: default
 <h1 id="about"><span id="title">About</span><span id="date">updated 1.24.17</span></h1>
 
 >![portrait](/images/portrait.jpg)  
-vannavu5539@gmail.com  
-[instagram](http://instagram.com/vanna_vu){:target="_blank}: vanna_vu  
+vannavu5539@gmail.com   
 [r&eacute;sum&eacute;](/documents/resume_spring18_vannavu.pdf){:target="_blank"}     
 
 ## Hi! I am currently a junior studying Communication Design at Washington University in St. Louis. 
