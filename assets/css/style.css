@@ -84,19 +84,14 @@ header {
 main {
 	flex: 1;
 	min-height: 100%;
-}
-
-main img, main p, h2, h4, iframe, .box, .back, .top {
-	-webkit-animation: fadeInUp 2.5s;
-	animation: fadeInUp 2.5s;
+	-webkit-animation-name: fade 2.5s;
+	animation: fade 2.5s;
 }
 
 h1 {
 	margin: 0;
 	border-bottom: 1px solid black;
 	margin-bottom: 18px;
-	-webkit-animation: fadeInLeft 2s;
-	animation: fadeInLeft 2s;
 }
 
 h1 span {
@@ -151,8 +146,6 @@ h5 {
 	font-size: 13px;
 	margin: -10px 0 0 0;
 	font-weight: 200;
-	-webkit-animation: fadeInRight 3s;
-	animation: fadeInRight 3s;
 }
 
 /* right column captions */
@@ -164,8 +157,6 @@ h6 {
 	font-size: 13px;
 	margin: -16px 0 16px 0;
 	font-weight: 200;
-	-webkit-animation: fadeInRight 3s;
-	animation: fadeInRight 3s;
 }
 
 a {
@@ -200,8 +191,6 @@ blockquote {
 	padding: 0;
 	margin: 0;
 	float: left;
-	-webkit-animation: fadeInLeft 3s;
-	animation: fadeInLeft 3s;
 }
 
 blockquote p {
@@ -257,9 +246,9 @@ a.back {
 
 footer {
 	margin: 6em 0 1em 0;
-	-webkit-animation: fadeInLeft 3s;
-	animation: fadeInLeft 3s;
 	border-top: 1px solid black;
+	-webkit-animation: fade 2.5s;
+	animation: fade 2.5s;
 }
 
 footer a {
@@ -296,70 +285,14 @@ footer a:hover {
 }
 
 /* animations */
-@keyframes fadeInUp {
-	from {
-		opacity: 0;
-		transform: translate(0,100%);
-	}
-	to:	{
-		opacity: 1;
-		transform: none;
-	}
+@keyframes fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
 }
 
-@-webkit-keyframes fadeInUp {
-	from {
-		opacity: 0;
-		-webkit-transform: translate(0,100%);
-	}
-	to:	{
-		opacity: 1;
-		-webkit-transform: none;
-	}
-}
-
-@keyframes fadeInLeft {
-	from {
-		opacity: 0;
-		transform: translate(-100%,0);
-	}
-	to:	{
-		opacity: 1;
-		transform: none;
-	}
-}
-
-@-webkit-keyframes fadeInLeft {
-	from {
-		opacity: 0;
-		-webkit-transform: translate(-100%,0);
-	}
-	to:	{
-		opacity: 1;
-		-webkit-transform: none;
-	}
-}
-
-@keyframes fadeInRight {
-	from {
-		opacity: 0;
-		transform: translate(100%,0);
-	}
-	to:	{
-		opacity: 1;
-		transform: none;
-	}
-}
-
-@-webkit-keyframes fadeInRight {
-	from {
-		opacity: 0;
-		-webkit-transform: translate(100%,0);
-	}
-	to:	{
-		opacity: 1;
-		-webkit-transform: none;
-	}
+@-webkit-keyframes fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
 }
 
 /* for About */
