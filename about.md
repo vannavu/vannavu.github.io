@@ -11,7 +11,7 @@ layout: default
 
 When it comes down to it, I love learning, order, and delight. Synthesis is what I do. Systems are what I make. They're always visual and often experiential. Since different problems require different solutions, I work in a variety of media and platforms. 
 
-I'm originally from Bentonville, Arkansas, and I was a math major until last spring. There's nothing like a good, aimless wander. Likely you'll catch me listening to [The National](https://www.youtube.com/watch?v=i8yehVUF8h0){:target="_blank"}, and if you're lucky, making [macarons](../images/macaronmadness.jpg){:target="_blank"}. One of my favorite typefaces to stare at is [Pitch](https://klim.co.nz/retail-fonts/pitch/){:target="_blank"}. I'm mediocre at guitar and German but in 20 years maybe I won't be.
+I'm originally from Bentonville, Arkansas, and I was a math major until last spring. Likely you'll catch me listening to [The National](https://www.youtube.com/watch?v=i8yehVUF8h0){:target="_blank"}, and if you're lucky, making [macarons](../images/macaronmadness.jpg){:target="_blank"}. One of my favorite typefaces to stare at is [Pitch](https://klim.co.nz/retail-fonts/pitch/){:target="_blank"}. I'm mediocre at guitar and German but in 20 years maybe I won't be.
 
 If you want to talk type and banter about other things, feel free to [email me](mailto:vannavu5539@gmail.com){:target="_blank}.
 
