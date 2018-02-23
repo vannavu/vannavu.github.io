@@ -11,14 +11,14 @@ layout: work
 
 >___  
 [explore the archive](https://docs.google.com/document/d/12fWVyDn5NhMiUF-3HnAWfLtgn3GY1sLBh3_Zs8_7rLw/edit){:target="_blank"}  
-[try the demo](http://walkerteach.me/summer17washu/09/exercises/final/example_home.html){:target="_blank"}   
+[try the demo](../google_it_demo/example_home.html){:target="_blank"}   
 [more info](http://walkerteach.me/summer17washu/09/exercises/final/index.html){:target="_blank"} 
 
-*Google it* is a collection of search results from [google.it](https://www.google.it/) (Google's Italian domain). [Its raw form](https://docs.google.com/document/d/12fWVyDn5NhMiUF-3HnAWfLtgn3GY1sLBh3_Zs8_7rLw/edit){:target="_blank"} is a shorthand journal made in Google Docs that is composed of phrases and hyperlinks. In its hypothetically curated form, it is [an alternative organization](http://walkerteach.me/summer17washu/09/exercises/final/example_home.html){:target="_blank"} of Google search results exhibited in Florence's Apple store. 
+*Google it* is a collection of search results from [google.it](https://www.google.it/) (Google's Italian domain). [Its raw form](https://docs.google.com/document/d/12fWVyDn5NhMiUF-3HnAWfLtgn3GY1sLBh3_Zs8_7rLw/edit){:target="_blank"} is a shorthand journal made in Google Docs that is composed of phrases and hyperlinks. In its hypothetically curated form, it is [an alternative organization](../google_it_demo/example_home.html){:target="_blank"} of Google search results exhibited in Florence's Apple store. 
 
 
 <p class="fill"><img src="../images/google_it/gi07.jpg"></p>
-###### &mdash; [try it out](http://walkerteach.me/summer17washu/09/exercises/final/example_home.html){:target="_blank"}; it works on phones, tablets, and computers
+###### &mdash; [try it out](../google_it_demo/example_home.html){:target="_blank"}; it works on phones, tablets, and computers
 
 <p class="fill"><img src="../images/google_it/gi06.jpg"></p>
 ###### &mdash; the Apple store has 5 digital screens that were repurposed for this project
