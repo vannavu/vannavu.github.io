@@ -10,7 +10,6 @@ layout: work
 
 >___  
 [process](../documents/rockets_process_vannavu.pdf){:target="_blank"}  
-[&#8220;Laika the Spacedog&#8221; animation](https://youtu.be/F-Ylg8g1Euw){:target="_blank"}
 
 ## A collection of important Space Race rockets that references technical drawing while adding whimsy and animation
 
@@ -19,3 +18,9 @@ layout: work
 <p class="fill"><img src="../images/rockets/r02.jpg"></p>
 
 <p class="fill"><img src="../images/rockets/r03.jpg"></p>
+
+<iframe width="900" height="506" src="https://www.youtube.com/embed/F-Ylg8g1Euw?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+###### &mdash; bonus animation
+
+>___  
+[process](../documents/rockets_process_vannavu.pdf){:target="_blank"} 

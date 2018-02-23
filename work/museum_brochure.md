@@ -5,7 +5,7 @@ layout: work
 
 # <span id="title">Museum brochure</span><span id="date">december 2017</span>
 
-<iframe width="900px" height="506px" src="https://www.youtube.com/embed/WaDXQoTWfnU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="900" height="506" src="https://www.youtube.com/embed/WaDXQoTWfnU?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 >___  
 [process](../documents/museumbrochure_process_vannavu.pdf){:target="_blank"}
