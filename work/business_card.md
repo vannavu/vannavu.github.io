@@ -1,5 +1,5 @@
 ---
-title: — business card
+title: business card
 layout: work
 ---
 

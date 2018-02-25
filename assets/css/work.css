@@ -14,18 +14,7 @@
 	transition: .5s;
 }
 
-.column {
-	float: left;
-	width: 30%;
-	margin: 1.66%;
-}
-
-.column img {
-	margin-bottom: 9%;
-	transition: .5s;
-}
-
-.box:hover/*, .column img:hover*/ {
+.box:hover {
 	opacity: .6;
 	border-bottom: 3px solid red;
 	transition: 1s;
@@ -86,14 +75,5 @@
 		padding-bottom: 100%;
 		float: none;
 		margin: 0 0 16px 0;
-	}
-	.column {
-		width: 100%;
-		float: none;
-		margin: 0;
-	}
-
-	.column img {
-		margin-bottom: 16px;
 	}
 }

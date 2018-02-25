@@ -1,5 +1,5 @@
 ---
-title: — Prompt
+title: Prompt
 layout: work
 ---
 

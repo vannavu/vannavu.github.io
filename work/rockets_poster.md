@@ -1,5 +1,5 @@
 ---
-title: — rockets poster
+title: rockets poster
 layout: work
 ---
 

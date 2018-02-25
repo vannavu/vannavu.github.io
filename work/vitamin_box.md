@@ -1,5 +1,5 @@
 ---
-title: — vitamin box
+title: vitamin box
 layout: work
 ---
 

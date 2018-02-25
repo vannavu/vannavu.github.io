@@ -1,6 +1,6 @@
 ---
-title: — play
-layout: archive
+title: play
+layout: play
 ---
 
 # <span id="title">play</span>

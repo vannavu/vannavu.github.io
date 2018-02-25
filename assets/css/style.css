@@ -1,6 +1,6 @@
 @import url("https://use.typekit.net/mqb3eja.css");
 
-/* gray: #A2AEAF;*/
+/* cool gray: #A2AEAF;*/
 
 html {
 	height: 100%;
@@ -46,10 +46,12 @@ header {
 	padding: 0;
 }
 
+/* mobile nav */
 .menu.small {
 	display: none;
 }
 
+/* tablet / desktop nav */
 .menu {
 	vertical-align: top;
 	width: 10%; 
@@ -81,6 +83,7 @@ header {
 	text-decoration: underline red;
 }
 
+/* content */
 main {
 	flex: 1;
 	min-height: 100%;
@@ -88,6 +91,7 @@ main {
 	animation: fade 2.5s;
 }
 
+/* page titles + dates */
 h1 {
 	margin: 0;
 	border-bottom: 1px solid black;
@@ -119,6 +123,7 @@ h1 span {
 	font-family: "source-sans-pro", monospace;
 }
 
+/* synopsis */
 h2 {
 	font-weight: 300;
 	font-family: "source-code-pro", monospace;
@@ -129,14 +134,6 @@ h2 {
 	display: inline-block;
 	width: 66.64%;
 	float: right;
-}
-
-/* etc. page "coming soon" */
-h4 {
-	font-family: "source-code-pro", monospace;
-	font-size: 36px;
-	color: #A2AEAF;
-	text-align: center;
 }
 
 /* left column captions */
@@ -200,7 +197,7 @@ blockquote p {
 	margin: 0;
 }
 
-/* sizing */
+/* image sizing */
 .fill {
 	padding: 0;
 	width: 100%;
@@ -220,7 +217,7 @@ blockquote p {
 	
 }
 
-/* bottom navigation */
+/* bottom navigation for work pages */
 .back, .top {
 	margin: 6em 0 -6em 0;
 	font-family: "ff-basic-gothic-pro", sans-serif;
@@ -260,6 +257,7 @@ footer a:hover {
 	color: red;
 }
 
+/* footer buttons positioning */
 .fa-github {
 	position: relative;
 	top: -12px;

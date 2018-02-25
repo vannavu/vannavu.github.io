@@ -1,5 +1,5 @@
 ---
-title: — Google it
+title: Google it
 layout: work
 ---
 

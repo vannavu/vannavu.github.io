@@ -1,3 +1,21 @@
+.wrapper_boxes {
+    max-width: 930px;
+    width: 96%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+}
+
+.column img {
+    margin-bottom: 9%;
+    transition: .5s;
+}
+
 .enlarge {
     cursor: zoom-in;
     transition: 1.5s;
@@ -71,6 +89,19 @@
 }
 
 @media only screen and (max-width: 700px) {
+    .wrapper_boxes {
+        width: 94%;
+        margin-bottom: 3em;
+    }
+    .column {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+
+    .column img {
+        margin-bottom: 16px;
+    }
     .modal {
         padding-top: 20%;
     }

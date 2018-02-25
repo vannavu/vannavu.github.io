@@ -1,5 +1,5 @@
 ---
-title: — 1984 book cover
+title: 1984 book cover
 layout: work
 ---
 

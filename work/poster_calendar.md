@@ -1,5 +1,5 @@
 ---
-title: — poster / calendar
+title: poster / calendar
 layout: work
 ---
 

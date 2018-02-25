@@ -1,5 +1,5 @@
 ---
-title: — museum brochure
+title: museum brochure
 layout: work
 ---
 

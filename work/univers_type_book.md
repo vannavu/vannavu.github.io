@@ -1,5 +1,5 @@
 ---
-title: — Univers type book
+title: Univers type book
 layout: work
 ---
 
