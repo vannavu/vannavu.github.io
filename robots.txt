@@ -1,0 +1,3 @@
+# Block Google from indexing PDFs
+User-agent: Googlebot
+Disallow: /documents/
