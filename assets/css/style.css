@@ -136,6 +136,15 @@ h2 {
 	float: right;
 }
 
+/* 404 */
+h4 {
+	font-family: "source-code-pro", monospace;
+	font-size: 36px;
+	color: black;
+	text-align: center;
+	margin: 0;
+}
+
 /* left column captions */
 h5 {
 	font-family: "ff-basic-gothic-pro", sans-serif;
