@@ -1,6 +1,8 @@
 @import url("https://use.typekit.net/mqb3eja.css");
 
-/* cool gray: #A2AEAF;*/
+:root {
+	--coolgray: #A2AEAF;
+}
 
 html {
 	height: 100%;
@@ -79,8 +81,9 @@ header {
 }
 
 .menu a:hover {
-	-webkit-text-decoration: underline red;
-	text-decoration: underline red;
+	color: black;
+	-webkit-text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* content */
@@ -166,14 +169,12 @@ h6 {
 }
 
 a {
-	-webkit-text-decoration-color: #A2AEAF;
-	text-decoration-color: #A2AEAF;
 	color: black;
+	text-decoration: underline var(--coolgray);
 }
 
 a:hover {
-	-webkit-text-decoration-color: red;
-	text-decoration-color: red;
+	text-decoration-color: black;
 }
 
 /* YouTube videos */
@@ -246,8 +247,8 @@ a.back {
 }
 
 .back:hover, .top:hover {
-	-webkit-text-decoration: underline red;
-	text-decoration: underline red;
+	-webkit-text-decoration: underline black;
+	text-decoration: underline black;
 }
 
 footer {
@@ -262,11 +263,7 @@ footer a {
 	text-decoration: none;
 }
 
-footer a:hover {
-	color: red;
-}
-
-/* footer buttons positioning */
+/* footer buttons positioning (let's get finicky) */
 .fa-github {
 	position: relative;
 	top: -12px;
@@ -275,20 +272,34 @@ footer a:hover {
 	padding-right: 10px;
 }
 
-.fa-instagram, .fa-envelope-o {
+.fa-github:hover {
+	color: blue;
+}
+
+.fa-envelope-o {
 	position: relative;
 	float: right;
 	top: -11px;
 	z-index: 1;
 	background: white;
+	padding-left: 10px;
+}
+
+.fa-envelope-o:hover {
+	color: gold;
 }
 
 .fa-instagram {
+	position: relative;
+	float: right;
+	top: -11px;
+	z-index: 1;
+	background: white;
 	padding-left: 5px;
 }
 
-.fa-envelope-o {
-	padding-left: 10px;
+.fa-instagram:hover {
+	color: red;
 }
 
 /* animations */

@@ -15,8 +15,7 @@
 }
 
 .box:hover {
-	opacity: .6;
-	border-bottom: 3px solid red;
+	border-bottom: 3px solid black;
 	transition: 1s;
 }
 
