@@ -168,15 +168,6 @@ h6 {
 	font-weight: 200;
 }
 
-a {
-	color: black;
-	text-decoration: underline var(--coolgray);
-}
-
-a:hover {
-	text-decoration-color: black;
-}
-
 /* YouTube videos */
 iframe {
 	width: 100%;
@@ -189,6 +180,16 @@ main p {
 	display: inline-block;
 	width: 66.64%;
 	float: right;
+}
+
+main a {
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px black dotted;
+}
+
+main a:hover {
+	border-bottom: 1px solid;
 }
 
 /* left column */
@@ -205,6 +206,10 @@ blockquote p {
 	width: 100%;
 	float: left;
 	margin: 0;
+}
+
+blockquote hr {
+	border: 1.5px solid black;
 }
 
 /* image sizing */
@@ -236,6 +241,7 @@ blockquote p {
 	text-decoration: none;
 	font-size: 13px;
 	color: black;
+	border-bottom: 1px solid white;
 }
 
 a.top {
@@ -247,8 +253,7 @@ a.back {
 }
 
 .back:hover, .top:hover {
-	-webkit-text-decoration: underline black;
-	text-decoration: underline black;
+	border-bottom: 1px solid black;
 }
 
 footer {

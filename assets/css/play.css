@@ -55,6 +55,17 @@
     font-size: 13px;
 }
 
+#caption a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px black dotted;
+}
+
+#caption a:hover {
+    font-weight: normal;
+    border-bottom: 1px solid;
+}
+
 .modal-content, #caption {    
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
