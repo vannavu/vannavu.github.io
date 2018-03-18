@@ -294,12 +294,11 @@ footer a {
 
 .smiley svg {
 	position: relative;
-	top: -0.6rem;
+	top: -0.65rem;
 	z-index: 1;
 	background: white;
 	padding-right: 8px;
 	cursor: pointer;
-	font-family: Arial, sans-serif;
 	width: 1rem;
 }
 
@@ -353,6 +352,7 @@ footer a {
 #card {
 	margin: 0;
 }
+
 #card:hover {
 	content: url('../../images/prompt/p14.jpg')
 }
@@ -443,10 +443,10 @@ footer a {
 	}
 
 	footer {
-		margin: 1em 0 1em 0;
+		margin: 1em 0 -10px 0;
 	}
 
-	#info p {
-		margin-top: -1em;
+	#colofun blockquote {
+		margin: 1em 0;
 	}
 }
