@@ -9,7 +9,7 @@ layout: work
 ###### &mdash; 3.5" x 2"
 
 >___  
-[process](../documents/businesscard_process_vannavu.pdf){:target="_blank"}
++ [process](../documents/businesscard_process_vannavu.pdf){:target="_blank"}
 
 ##  “As masculine as any man I’ve ever known, and as much a little boy a grown man could be”
 

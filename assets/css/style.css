@@ -1,9 +1,5 @@
 @import url("https://use.typekit.net/mqb3eja.css");
 
-:root {
-	--coolgray: #A2AEAF;
-}
-
 html {
 	height: 100%;
 }
@@ -123,7 +119,7 @@ h1 span {
 	font-weight: 300;
 	font-size: 15px;
 	padding-left: 10px;
-	font-family: "source-sans-pro", monospace;
+	font-family: "source-sans-pro", sans-serif;
 }
 
 /* synopsis */
@@ -192,7 +188,7 @@ main a:hover {
 	border-bottom: 1px solid;
 }
 
-/* left column */
+/* left column (markdown work-around) */
 blockquote {
 	width: 28%;
 	display: inline-block;
@@ -210,6 +206,21 @@ blockquote p {
 
 blockquote hr {
 	border: 1.5px solid black;
+}
+
+blockquote a {
+	border-bottom: none;
+}
+
+blockquote ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+blockquote li:before {
+	content: '+';
+	margin-right: .5em;
 }
 
 /* image sizing */
@@ -269,29 +280,31 @@ footer a {
 }
 
 /* footer buttons positioning (let's get finicky) */
-.fa-github {
+#colofun {
+    display: none;
+    width: 100%;
+	background-color: white;
+}
+
+#colofun p {
+	font-family: "ff-basic-gothic-pro", sans-serif;
+	font-size: 13px;
+	margin: -1em 0 1em 0;
+}
+
+.smiley {
 	position: relative;
-	top: -12px;
+	top: -16px;
 	z-index: 1;
 	background: white;
-	padding-right: 10px;
+	padding-right: 4px;
+	cursor: pointer;
+	font-family: Arial, sans-serif;
+	font-size: 24px;
 }
 
-.fa-github:hover {
-	color: blue;
-}
-
-.fa-envelope-o {
-	position: relative;
-	float: right;
-	top: -11px;
-	z-index: 1;
-	background: white;
-	padding-left: 10px;
-}
-
-.fa-envelope-o:hover {
-	color: gold;
+.smiley:hover {
+	color: #FF003A; /* red */
 }
 
 .fa-instagram {
@@ -300,11 +313,24 @@ footer a {
 	top: -11px;
 	z-index: 1;
 	background: white;
-	padding-left: 5px;
+	padding-left: 8px;
 }
 
 .fa-instagram:hover {
-	color: red;
+	color: lime; /* green */
+}
+
+.fa-envelope {
+	position: relative;
+	float: right;
+	top: -11px;
+	z-index: 1;
+	background: white;
+	padding-left: 4px;
+}
+
+.fa-envelope:hover {
+	color: #006BF3; /* blue */
 }
 
 /* animations */
@@ -417,7 +443,10 @@ footer a {
 	}
 
 	footer {
-		margin: 21px 0 -10px 0;
+		margin: 1em 0 1em 0;
 	}
 
+	#info p {
+		margin-top: -1em;
+	}
 }

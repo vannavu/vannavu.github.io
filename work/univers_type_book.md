@@ -8,10 +8,6 @@ layout: work
 <p class="fill"><img src="../images/univers/u02.jpg"></p>
 ###### &mdash; 7.75" x 10.5"  
 
->___ 
-[full book](https://issuu.com/vanna_vu/docs/univers){:target="_blank"}  
-[process](../documents/univers_process_vannavu.pdf){:target="_blank"} 
-
 ## A study of Univers with layouts and diagrams emphasizing the typeface's horizontal flow
 
 <p class="fill"><img src="../images/univers/u01.jpg"></p>
@@ -31,5 +27,5 @@ layout: work
 ###### &mdash; sketches on tracing paper  
 
 >___ 
-[full book](https://issuu.com/vanna_vu/docs/univers){:target="_blank"}  
-[process](../documents/univers_process_vannavu.pdf){:target="_blank"}  
+- [full book](https://issuu.com/vanna_vu/docs/univers){:target="_blank"}  
+- [process](../documents/univers_process_vannavu.pdf){:target="_blank"}  

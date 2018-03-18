@@ -9,9 +9,6 @@ layout: work
 
 ## Simple yet non-generic packaging based on themes of multiplicity, vinery, and continuous growth
 
->___  
-[process](../documents/vitaminbox_process_vannavu.pdf){:target="_blank"}
-
 This was a project of two stages: group research and individual design.
 
 In researching vitamin K, my group learned that the K comes from the German word *Koagulation*. Naturally we tried to turn that into a tasteful company name.
@@ -31,4 +28,4 @@ The company name and the thought behind it formed the conceptual basis for my de
 <p class="fill"><img src="/images/vitamin_box/vb02.jpg"></p>
 
 >___  
-[process](../documents/vitaminbox_process_vannavu.pdf){:target="_blank"}
+- [process](../documents/vitaminbox_process_vannavu.pdf){:target="_blank"}

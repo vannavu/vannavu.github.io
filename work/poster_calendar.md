@@ -9,7 +9,6 @@ layout: work
 ###### &mdash; 18" x 27"
 
 >![Sam Fox logo](../images/poster_calendar/pca.jpg)  
-[process](../documents/calendar_process_vannavu.pdf){:target="_blank"}  
 
 ## A double-sided poster and calendar for the Sam Fox School that recomposes the college's visual identity
 
@@ -25,4 +24,4 @@ layout: work
 <p class="fill"><img src="../images/poster_calendar/pc07.jpg"></p>
 
 >___  
-[process](../documents/calendar_process_vannavu.pdf){:target="_blank"} 
++ [process](../documents/calendar_process_vannavu.pdf){:target="_blank"} 

@@ -7,9 +7,6 @@ layout: work
 
 <iframe width="900" height="506" src="https://www.youtube.com/embed/WaDXQoTWfnU?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
->___  
-[process](../documents/museumbrochure_process_vannavu.pdf){:target="_blank"}
-
 ## A dimensional brochure for the Saint Louis Science Center playing off their space exhibits and mission of hands-on learning and discovery
 
 <p class="fill"><img src="../images/museum_brochure/mb02.jpg"></p>
@@ -32,4 +29,4 @@ layout: work
 <p class="fill"><img src="../images/museum_brochure/mb08.jpg"></p>
 
 >___  
-[process](../documents/museumbrochure_process_vannavu.pdf){:target="_blank"}
++ [process](../documents/museumbrochure_process_vannavu.pdf){:target="_blank"}

@@ -7,9 +7,6 @@ layout: work
 
 <p class="fill"><img src="../images/1984/n01.jpg"></p>
 
->___  
-[process](../documents/1984_process_vannavu.pdf){:target="_blank"} 
-
 ## Full jacket design anchored in type, material, and metaphor
 
 Shooting off 1984's dystopian components of homogeneity and inhumanity, I focused on capturing the main character's story without giving it away. The cover's scene was made with paper, staples, and a bike light.
@@ -23,4 +20,4 @@ Shooting off 1984's dystopian components of homogeneity and inhumanity, I focuse
 <p class="fill"><img src="../images/1984/n05.jpg"></p>
 
 >___  
-[process](../documents/1984_process_vannavu.pdf){:target="_blank"} 
+- [process](../documents/1984_process_vannavu.pdf){:target="_blank"} 

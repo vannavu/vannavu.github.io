@@ -9,8 +9,8 @@ layout: default
 
 ## Hi! I am currently a junior studying Communication Design at Washington University in St. Louis.
 
-Synthesis is what I do. Systems are what I make. I tend toward dimensional, interactive, or applicable forms such as identities, packaging, environments/experiences, websites, and typefaces. Covers are my jam. 
+I make visual systems that tend to be dimensional, interactive, or functional. Some forms that interest me are packaging, environments/experiences, websites, and typefaces. Covers are my jam. 
 
-I'm originally from Bentonville, Arkansas, and I was a math major until I somehow moseyed my way into the art school last spring. Likely you'll catch me listening to [The National](https://www.youtube.com/watch?v=i8yehVUF8h0){:target="_blank"}, and if you're lucky, making [macarons](../images/macaronmadness.jpg){:target="_blank"}. One of my favorite typefaces to stare at is [Pitch](https://klim.co.nz/retail-fonts/pitch/){:target="_blank"}.
+I'm originally from Bentonville, Arkansas, and I used to be a math major until I somehow moseyed my way into the design school last spring. It's important to wander physically and [digitally](https://docs.google.com/document/d/1ACoAxl8RPKmMfAOUMyj9oXD1n8JKapDhz6-BiB_evNk/edit?usp=sharing){:target="_blank"}. I often listen to [The](https://youtu.be/i8yehVUF8h0){:target="_blank"} [National](https://youtu.be/QaYszP4QZ3E){:target="_blank"} and [Sufjan](https://youtu.be/qlPN7_h_OYo){:target="_blank"} [Stevens](https://youtu.be/z9Dzy4eB_nI){:target="_blank"}, and sometimes I make [macarons](../images/macaronmadness.jpg){:target="_blank"}.
 
-If you want to talk type and banter about other things, feel free to [email me](mailto:{{ site.email }}){:target="_blank}.
+I can be contacted at [vannavu@wustl.edu](mailto:{{ site.email }}).

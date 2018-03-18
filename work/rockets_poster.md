@@ -8,12 +8,7 @@ layout: work
 <p class="fill"><img src="../images/rockets/r01.jpg"></p>
 ###### &mdash; 16" x 20"
 
->___  
-[process](../documents/rockets_process_vannavu.pdf){:target="_blank"}  
-
-## A collection of important Space Race rockets that references technical drawing while adding whimsy and animation
-
-
+## A collection of important Space Race rockets that references the era and animates technical drawing
 
 <p class="fill"><img src="../images/rockets/r02.jpg"></p>
 
@@ -23,4 +18,4 @@ layout: work
 ###### &mdash; bonus animation
 
 >___  
-[process](../documents/rockets_process_vannavu.pdf){:target="_blank"} 
++ [process](../documents/rockets_process_vannavu.pdf){:target="_blank"} 
