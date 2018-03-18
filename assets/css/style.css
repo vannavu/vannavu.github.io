@@ -292,19 +292,19 @@ footer a {
 	margin: -1em 0 1em 0;
 }
 
-.smiley {
+.smiley svg {
 	position: relative;
-	top: -16px;
+	top: -0.6rem;
 	z-index: 1;
 	background: white;
-	padding-right: 4px;
+	padding-right: 8px;
 	cursor: pointer;
 	font-family: Arial, sans-serif;
-	font-size: 24px;
+	width: 1rem;
 }
 
-.smiley:hover {
-	color: #FF003A; /* red */
+.smiley svg:hover {
+	fill: #FF003A; /* red */
 }
 
 .fa-instagram {
