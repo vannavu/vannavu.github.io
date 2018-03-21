@@ -20,22 +20,22 @@
 }
 
 #one {
-	background: url(../../images/thumbnails/prompt.jpg) no-repeat center;
-	background-size: contain;
-}
-
-#two {
-	background: url(../../images/thumbnails/vitamin_box.jpg) no-repeat center;
-	background-size: contain;
-}
-
-#three {
 	background: url(../../images/thumbnails/google_it.svg) no-repeat center;
 	background-size: contain;
 }
 
-#four {
+#two {
 	background: url(../../images/thumbnails/1984.jpg) no-repeat center;
+	background-size: contain;
+}
+
+#three {
+	background: url(../../images/thumbnails/prompt.jpg) no-repeat center;
+	background-size: contain;
+}
+
+#four {
+	background: url(../../images/thumbnails/univers.jpg) no-repeat center;
 	background-size: contain;
 }
 
@@ -45,7 +45,7 @@
 }
 
 #six {
-	background: url(../../images/thumbnails/univers.jpg) no-repeat center;
+	background: url(../../images/thumbnails/museum_brochure.jpg) no-repeat center;
 	background-size: contain;
 }
 
@@ -55,7 +55,7 @@
 }
 
 #eight {
-	background: url(../../images/thumbnails/museum_brochure.jpg) no-repeat center;
+	background: url(../../images/thumbnails/vitamin_box.jpg) no-repeat center;
 	background-size: contain;
 }
 

@@ -7,7 +7,7 @@ layout: work
 
 <p class="fill"><img src="../images/prompt/p01.jpg"></p>
 
-## A mosaic in motion that invites passersby in Florence's Santa Maria Novella train station to leave a mark and, consequently, a greater insight
+## A mosaic in motion that invites passersby in Florence's Santa Maria Novella train station to leave a mark
 
 *Prompt* was created in response to the prevalent amount of meaningless graffiti and tagging in Florence, such as areas around SRISA, the Duomo, the train station, to Uffizi bathroom stalls and even pillars at the top of the Duomo.
 
