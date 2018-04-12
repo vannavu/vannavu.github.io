@@ -306,7 +306,21 @@ footer a {
 	fill: #FF003A; /* red */
 }
 
-.fa-instagram {
+/*[future blog] {
+	position: relative;
+	float: right;
+	top: -11px;
+	z-index: 1;
+	background: white;
+	padding-left: 8px;
+}*/
+
+/*[future blog]:hover {
+	color: lime;
+}
+*/
+
+.fa-envelope {
 	position: relative;
 	float: right;
 	top: -11px;
@@ -315,21 +329,8 @@ footer a {
 	padding-left: 8px;
 }
 
-.fa-instagram:hover {
-	color: lime; /* green */
-}
-
-.fa-envelope {
-	position: relative;
-	float: right;
-	top: -11px;
-	z-index: 1;
-	background: white;
-	padding-left: 4px;
-}
-
 .fa-envelope:hover {
-	color: #006BF3; /* blue */
+	color: #FF003A; /* or #006BF3; blue */
 }
 
 /* animations */
