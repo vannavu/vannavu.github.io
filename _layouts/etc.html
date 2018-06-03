@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <link rel="stylesheet" href="{{ "/assets/css/play.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/etc.css" | relative_url }}">
 
   <body>
 
@@ -15,12 +15,12 @@
         <div class="wrapper">{{ content }}</div>
 
         <div class="wrapper_boxes">
-        
+
           <div class="column">
           	<img src="../images/archive/eatingstairs.gif" class="enlarge" alt="Weaves or squares, Drawbot (2018)">
             <img src="../images/archive/tobealbumcover.jpg" class="enlarge" alt="Maybe a split LP cover someday, Drawbot (2018)">
             <img src="../images/archive/rotatingsegments.gif" class="enlarge" alt="Drawbot (2018)">
-            <img src="../images/archive/rotatedgrid.gif" class="enlarge" alt="What you can do to a grid in DrawBot (2018)"> 
+            <img src="../images/archive/rotatedgrid.gif" class="enlarge" alt="What you can do to a grid in DrawBot (2018)">
           </div>
 
           <div class="column">
@@ -37,7 +37,7 @@
             <img src="../images/archive/words.jpg" class="enlarge" alt="<a href='https://youtu.be/rEaI4-vXBWQ' target='_blank'>Words</a> stop motion (2017)">
             <img src="../images/archive/lyotard.gif" class="enlarge" alt="As written by Lyotard in &ldquo;Paradox on the Graphic Artist,&rdquo; Made with cardstock and a bike light (2017)">
           </div>
-        
+
         </div>
 
       </main>
@@ -45,15 +45,15 @@
     <div class="wrapper">
       {% include footer.html %}
     </div>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    
+
     <div id="myModal" class="modal">
         <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
         <img class="modal-content" id="img01">
         <div id="caption"></div>
     </div>
-    
+
     <script>
       var modal = document.getElementById('myModal');
       var img = $('.enlarge');
@@ -66,11 +66,11 @@
         captionText.innerHTML = this.alt;
       });
       var span = document.getElementsByClassName("close")[0];
-      span.onclick = function() { 
+      span.onclick = function() {
         modal.style.display = "none";
       }
   </script>
-  
+
   </body>
 
 </html>

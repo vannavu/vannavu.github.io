@@ -7,7 +7,7 @@ layout: default
 
 >![portrait](/images/portrait.jpg)
 
-## Hi! I am currently a junior studying Communication Design at Washington University in St. Louis. I make visual systems that tend to be dimensional, interactive, or functional.
+## Hi! I am a rising senior studying Communication Design at Washington University in St. Louis. I make visual systems that tend to be dimensional, interactive, or functional.
 
 I'm originally from Bentonville, Arkansas, and I was going to be a math major until I somehow moseyed my way into the design school last spring. It's important to wander yet pay attention. And to synthesize. So that is what I'm doing.
 
