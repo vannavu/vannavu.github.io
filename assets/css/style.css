@@ -52,7 +52,7 @@ header {
 /* tablet / desktop nav */
 .menu {
 	vertical-align: top;
-	width: 10%; 
+	width: 10%;
 	display: inline-block;
 }
 
@@ -213,8 +213,10 @@ blockquote a {
 }
 
 blockquote ul {
-	list-style: none;
+	list-style: outside none;
 	padding: 0;
+	padding-left: 1em;
+	text-indent: -1em;
 	margin: 0;
 }
 
@@ -234,13 +236,13 @@ blockquote li:before {
 .half_left {
 	width: 48.34%;
 	float: left;
-	
+
 }
 
 .half_right {
 	width: 48.34%;
 	float: right;
-	
+
 }
 
 /* bottom navigation for work pages */
