@@ -1,6 +1,4 @@
 ---
 title: work
-layout: home
+layout: inprog
 ---
-
-# <span id="title">work</span>
