@@ -1,5 +1,13 @@
 @import url("https://use.typekit.net/mqb3eja.css");
 
+@font-face {
+  font-family: Pitch;
+  src: url('../fonts/PitchSansWeb-Semibold.eot');
+  src: url('../fonts/PitchSansWeb-Semibold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/PitchSansWeb-Semibold.woff2') format('woff2'),
+       url('../fonts/PitchSansWeb-Semibold.woff') format('woff');
+}
+
 html {
 	height: 100%;
 }
@@ -124,8 +132,7 @@ h1 span {
 
 /* synopsis */
 h2 {
-	font-weight: 300;
-	font-family: "source-code-pro", monospace;
+	font-family: "Pitch", monospace;
 	font-size: 24px;
 	line-height: 1.75em;
 	color: black;
