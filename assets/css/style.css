@@ -370,7 +370,7 @@ footer a {
 
 @media (max-width: 700px) {
   body {
-    margin: 2em;
+    margin: 1em;
   }
 	.name_plate, .menu.small, blockquote, main p, h2, h4, h6 {
 		display: block;
@@ -432,7 +432,7 @@ footer a {
 	}
 
 	h2 {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.45;
     width: 100%;
   }
