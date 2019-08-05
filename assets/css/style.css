@@ -20,6 +20,7 @@ body {
 	display: flex;
 	min-height: 100%;
 	flex-direction: column;
+  margin: 3em;
 }
 
 .wrapper {
@@ -368,6 +369,9 @@ footer a {
 }
 
 @media (max-width: 700px) {
+  body {
+    margin: 2em;
+  }
 	.name_plate, .menu.small, blockquote, main p, h2, h4, h6 {
 		display: block;
 		float: none;
@@ -428,8 +432,11 @@ footer a {
 	}
 
 	h2 {
-		line-height: 1.4em;
-	}
+    font-size: 16px;
+    line-height: 1.45;
+    margin: 0;
+    width: 100%;
+  }
 
 	h5 {
 		margin: 0 0 16px 0;
