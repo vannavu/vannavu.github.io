@@ -1,0 +1,3 @@
+---
+permalink: /explorations/
+---
