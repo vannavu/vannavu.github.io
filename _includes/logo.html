@@ -1,0 +1,41 @@
+<div class="flex flex-wrap items-center vh-100"> 
+  <div id="logo">
+    <svg
+      viewBox="0 0 440 440"
+      class="db w5 center"
+      fill="none"
+      <g id="circle">
+        <circle cx="220" cy="220" r="220"/>
+      </g>
+      <g transform="translate(220 220)">
+        <path
+          id="square"
+          d="M -155.885 -155.885 h 311.77 v 311.77 h -311.77 z"
+        />
+      </g>
+      <g id="container">
+        <path
+          id="reuleaux-triangle"
+          d="M 90 155.88457268119896
+             A 311.77 311.77 0 0 1 -180 0
+             A 311.77 311.77 0 0 1 90 -155.885
+             A 311.77 311.77 0 0 1 90 155.885
+             Z"
+        />
+      </g>
+    </svg>
+    <div class="mt4 flex items-center" style="display:none">
+      <button
+        class="bg-animate"
+        id="play">
+      </button>
+      <button
+        class="bg-animate"
+        id="pause">
+      </button>
+      <input class="input-range-rv"
+        id="progress"
+        type="range" step=".001" type="range" min="0" max="100" value="0" />
+    </div>
+  </div>
+</div>
