@@ -1,4 +1,4 @@
 ---
-permalink: /about/
+permalink: /projects
 layout: default
 ---

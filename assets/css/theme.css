@@ -1,3 +1,20 @@
+@import 'normalize.css';
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: black;
+  transition: background 1s;
+}
+
+header {
+  background: none;
+  transition: background 1s;
+}
+
 #circle {
   fill: #05D58C;
 }
