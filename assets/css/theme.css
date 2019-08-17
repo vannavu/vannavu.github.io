@@ -1,18 +1,69 @@
 @import 'normalize.css';
+@import url('https://use.typekit.net/mqb3eja.css');
+
+@font-face {
+  font-family: SourceCodePro;
+  src: url('../fonts/SourceCodeVariable-Roman.ttf');
+}
+
+:root {
+  --green: #00BC8F;
+  --blue: #004FFF;
+  --red: #EB5C5C;
+  --projects_bg: #F5F5F5;
+  --fragments_bg: #141414;
+  --annotations_bg: #FFFBEF;
+  --information_bg: #E3E6E2;
+  --SourceCodePro: 'wght' 350;
+}
 
 * {
   list-style: none;
   text-decoration: none;
+  font-size: 16px;
+  box-sizing: border-box;
 }
 
 body {
-  background: black;
+  background: white;
   transition: background 1s;
+  color: black;
+  font-family: SourceCodePro;
+  font-variation-settings: var(--SourceCodePro);
+  font-size: 1rem;
+}
+
+#graph {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 0;
+  background: url('/images/logo/graph.svg');
+  background-size: 24px 24px;
+  opacity: 0.03;
+}
+
+#wrapper {
+  position: relative;
+  z-index: 1;
 }
 
 header {
-  background: none;
+  background: white;
   transition: background 1s;
+  padding: 0.75em 0;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header img {
+  height: 0.75em;
+  display: inline-block;
+  margin-right: 0.5em;
+  opacity: 0.15;
 }
 
 #circle {

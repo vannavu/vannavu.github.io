@@ -1,4 +1,5 @@
 ---
+title: Vanna Vu
 permalink: /
 layout: default
 ---
