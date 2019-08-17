@@ -1,6 +1,6 @@
 ---
 title: Fragments
 permalink: /fragments/
-layout: default
+layout: fragments
 ---
 fragments

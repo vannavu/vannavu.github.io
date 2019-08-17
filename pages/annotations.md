@@ -1,5 +1,5 @@
 ---
 title: Annotations
 permalink: /annotations/
-layout: default
+layout: annotations
 ---

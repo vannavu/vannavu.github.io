@@ -6,7 +6,13 @@
   src: url('../fonts/SourceCodeVariable-Roman.ttf');
 }
 
+@font-face {
+  font-family: Zazz;
+  src: url('../fonts/Zazz_v0.1.otf');
+}
+
 :root {
+  --root_ptsize: 15px;
   --green: #00BC8F;
   --blue: #004FFF;
   --red: #EB5C5C;
@@ -14,20 +20,28 @@
   --fragments_bg: #141414;
   --annotations_bg: #FFFBEF;
   --information_bg: #E3E6E2;
+  --bg: white;
+  --txt: black;
+  --header_height: 58px;
+  --h1_basesize: 3.5rem;
   --SourceCodePro: 'wght' 350;
 }
 
 * {
   list-style: none;
   text-decoration: none;
-  font-size: 16px;
+  font-size: var(--root_ptsize);
   box-sizing: border-box;
 }
 
+a {
+  cursor: pointer;
+}
+
 body {
-  background: white;
+  background: var(--bg);
   transition: background 1s;
-  color: black;
+  color: var(--txt);
   font-family: SourceCodePro;
   font-variation-settings: var(--SourceCodePro);
   font-size: 1rem;
@@ -43,20 +57,84 @@ body {
   opacity: 0.03;
 }
 
-#wrapper {
+@keyframes fadein {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+main {
+  opacity: 1;
+  animation: fadein 0.5s;
+}
+
+.wrapper {
   position: relative;
   z-index: 1;
+  width: 66%;
+  min-width: 1200px;
+  margin: auto;
 }
 
 header {
-  background: white;
+  position: fixed;
+  z-index: 999;
+  width: 100vw;
+  background: var(--bg);
   transition: background 1s;
-  padding: 0.75em 0;
+  padding: 1.25em 0;
   box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+
+header a {
+  transition: all 0.5s;
+}
+
+header a:hover, header a:hover img {
+  font-variation-settings: 'wght' 500;
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+header #home {
+  width: calc(25% - 50px);
+}
+
+header #home a {
+  color: var(--txt);
+  letter-spacing: 0.75em;
+}
+
+header #projects a {
+  color: black;
+}
+
+header #fragments a {
+  color: var(--green);
+}
+
+header #annotations a {
+  color: var(--blue);
+}
+
+header #information a {
+  color: var(--red);
 }
 
 header ul li {
   display: inline-block;
+}
+
+header #header_pages {
+  position: relative;
+  left: 50px;
+  width: calc(60% - 50px);
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+header #header_pages li {
+  display: inline-flex;
+  margin-left: 2em;
 }
 
 header img {
@@ -67,15 +145,19 @@ header img {
 }
 
 #circle {
-  fill: #05D58C;
+  stroke: var(--blue);
+  fill: none;
 }
 
 #square {
-  fill: #0061FF;
+  stroke: var(--green);
+  fill: none;
 }
 
 #reuleaux-triangle {
-  fill: black;
+  stroke: black;
+  fill: none;
+  stroke-linejoin: round;
 }
 
 @keyframes rotate {
@@ -84,5 +166,132 @@ header img {
 }
 
 #logo {
-  animation: rotate 16s linear infinite;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  animation: rotate 20s linear infinite;
+}
+
+main {
+  padding-top: var(--header_height); /* header height */
+}
+
+h1 {
+  text-align: justify;
+  margin: 0;
+  font-weight: normal;
+}
+
+h1:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+  line-height: 0;
+}
+
+
+/* INDEX */
+.home #logo_container {
+  position: fixed;
+  top: 8vh;
+  width: 80vh;
+  height: 80vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0.75;
+  animation: fadein 1s;
+}
+
+.home header {
+  display: none;
+}
+
+#home_menu {
+  position: absolute;
+  display: flex;
+  height: 70vh;
+  flex-direction: column;
+  top: calc(13.5vh + var(--header_height) / 2);
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#home_menu h1 {
+  width: 100%;
+  height: 100%;
+}
+
+.home h1 {
+  transition: opacity 0.3s;
+}
+
+.home h1:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+h1.projects a {
+  font-family: meno-banner, serif;
+  font-size: calc(var(--h1_basesize) * 1.25);
+  color: black;
+}
+
+h1.fragments a {
+  font-family: SourceCodePro, sans-serif;
+  font-size: calc(var(--h1_basesize) * 1.45);
+  color: var(--green);
+}
+
+h1.annotations a {
+  font-family: beastly, sans-serif;
+  font-weight: 900; /* 60pt Beastly */
+  font-size: calc(var(--h1_basesize) * 1.45);
+  color: var(--blue);
+}
+
+h1.information a {
+  font-family: Zazz, monospace;
+  font-size: var(--h1_basesize);
+  color: var(--red);
+  line-height: calc(var(--h1_basesize) * 2.5);
+}
+
+#home-index {
+  position: fixed;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.75em;
+}
+
+
+/* PROJECTS */
+.projects {
+  --bg: var(--projects_bg);
+  --txt: black;
+}
+
+
+/* FRAGMENTS */
+.fragments {
+  --bg: var(--fragments_bg);
+  --txt: var(--green);
+}
+
+
+/* ANNOTATIONS */
+.annotations {
+  --bg: var(--annotations_bg);
+  --txt: var(--blue);
+}
+
+
+/* INFORMATION */
+.information {
+  --bg: var(--information_bg);
+  --txt: var(--red);
 }
