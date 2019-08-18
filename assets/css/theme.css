@@ -15,7 +15,7 @@
   --root_ptsize: 15px;
   --shadow_color: rgba(0,0,0,0.15);
   --green: #0DBF81;
-  --blue: #004FFF;
+  --blue: #0048E9;
   --red: #EB5C5C;
   --projects_bg: #F5F5F5;
   --fragments_bg: #141414;
@@ -328,7 +328,7 @@ h1.fragments a, .fragments h1 {
 
 h1.annotations a, .annotations h1 {
   font-family: beastly, sans-serif;
-  font-weight: 900; /* 60pt Beastly */
+  font-weight: 200; /* 48pt Beastly */
   font-size: calc(var(--h1_basesize) * 1.45);
   color: var(--blue);
 }
@@ -440,6 +440,13 @@ h1.information a, .information h1 {
   --txt: var(--blue);
 }
 
+.annotations .sidebar li {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .annotations header #annotations img {
   opacity: 1;
 }
@@ -456,6 +463,25 @@ h1.information a, .information h1 {
   fill: var(--blue);
 }
 
+.annotations h2 { /* post title */
+  font-size: calc(var(--h1_basesize) * 0.55);
+  line-height: 1;
+  font-family: beastly, sans-serif;
+  font-weight: 100; /* 12pt Beastly */
+  margin-bottom: 0.5rem;
+}
+
+.annotations .post_date {
+  position: relative;
+  font-family: SourceCodePro;
+  top: -0.22rem;
+  padding: 0.18rem 0.5rem;
+  /*color: var(--annotations_bg);
+  background: var(--txt);
+  font-variation-settings: 'wght' 300;*/
+  border-left: 1px solid var(--txt);
+  margin-left: 0.6rem;
+}
 
 /* INFORMATION */
 .information {
