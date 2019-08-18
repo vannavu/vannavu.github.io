@@ -420,6 +420,10 @@ h1.information a, .information h1 {
   --shadow_color: rgba(0,0,0,0.5);
 }
 
+.fragments #graph {
+  opacity: 0.15;
+}
+
 .fragments header #fragments img {
   opacity: 1;
 }
