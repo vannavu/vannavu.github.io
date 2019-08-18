@@ -3,4 +3,5 @@ title: Information
 permalink: /information/
 layout: information
 ---
-uh
+
+![](/images/portrait.jpg)

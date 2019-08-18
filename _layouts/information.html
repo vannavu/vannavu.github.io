@@ -7,9 +7,11 @@
     <div id="graph"></div>
       {% include header.html %}
       <div class="wrapper">
-      <main class="page-content" aria-label="Content">
-        {{ content }}
-      </main>
+        <h1>I N F O R M A T I O N</h1>
+        {% include sidebars/information_sidebar.html %}
+        <main class="page-content" aria-label="Content">
+          {{ content }}
+        </main>
 
       {% include footer.html %}
     </div>
