@@ -12,7 +12,7 @@ $(document).ready(function() {"use strict";
     theta: [0, 6 * Math.PI],
     beta: [0, -360],
     easing: 'linear',
-    duration: 10000,
+    duration: 12500,
     loop: true,
     // autoplay: false,
     update: function update(anim) {

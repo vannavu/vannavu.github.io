@@ -13,19 +13,20 @@
 
 :root {
   --root_ptsize: 15px;
-  --green: #00BC8F;
+  --shadow_color: rgba(0,0,0,0.15);
+  --green: #0DBF81;
   --blue: #004FFF;
   --red: #EB5C5C;
   --projects_bg: #F5F5F5;
   --fragments_bg: #141414;
   --annotations_bg: #FFFAEA;
-  --information_bg: #E0E3DF;
+  --information_bg: #D9DFD7;
   --bg: white;
   --txt: black;
   --header_height: 58px;
   --content_margin: calc(var(--header_height));
   --h1_basesize: 3.5rem;
-  --SourceCodePro: 'wght' 350;
+  --SourceCodePro: 'wght' 370;
 }
 
 * {
@@ -33,6 +34,12 @@
   text-decoration: none;
   font-size: var(--root_ptsize);
   box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -42,7 +49,7 @@ body {
   font-family: SourceCodePro;
   font-variation-settings: var(--SourceCodePro);
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.45;
 }
 
 #graph {
@@ -73,10 +80,41 @@ main {
   opacity: 1;
   animation: fadein 0.5s;
   vertical-align: top;
+  padding-bottom: calc(var(--header_height) * 2);
 }
 
 main img {
+  width: calc(139%);
+  box-shadow: -2px 2px 4px var(--shadow_color);
+}
+
+main p, main h3 {
+  width: 72%;
+}
+
+main blockquote {
+  width: calc(28% - 40px + 1rem);
+  float: right;
+  margin: 0;
+  padding-left: 1rem;
+  border-left: 1px solid var(--txt);
+}
+
+main blockquote p {
   width: 100%;
+}
+
+main blockquote a {
+  transition: all 0.3s;
+}
+
+main blockquote a:hover {
+  font-variation-settings: 'wght' 500;
+  transition: all 0.3s;
+}
+
+.indent {
+  margin-left: 1.2rem;
 }
 
 .wrapper {
@@ -94,8 +132,11 @@ main img {
 
 .sidebar {
   position: sticky;
+  position: -webkit-sticky;
+  top: calc(var(--header_height) + 1.5rem);
   display: inline-block;
   width: calc(25% - 50px);
+  animation: fadein 0.5s;
 }
 
 .logo-sidebar {
@@ -116,7 +157,7 @@ header {
   background: var(--bg);
   transition: background 1s;
   padding: 1.25em 0;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 4px var(--shadow_color);
 }
 
 header a {
@@ -135,7 +176,7 @@ header #home {
 
 header #home a {
   color: var(--txt);
-  letter-spacing: 0.75em;
+  letter-spacing: 0.7em;
 }
 
 header #projects a {
@@ -174,7 +215,8 @@ header img {
   height: 0.75em;
   display: inline-block;
   margin-right: 0.5em;
-  opacity: 0.15;
+  opacity: 0.1;
+  transition: opacity 0.3s;
 }
 
 #circle {
@@ -201,7 +243,7 @@ header img {
 #logo {
   backface-visibility: hidden;
   transform: translateZ(0);
-  animation: rotate 20s linear infinite;
+  animation: rotate 24s linear infinite;
 }
 
 h1 {
@@ -210,6 +252,7 @@ h1 {
   margin: 0;
   top: var(--header_height);
   font-weight: normal;
+  animation: fadein 0.5s;
 }
 
 h1:after {
@@ -242,6 +285,7 @@ h1:after {
   display: block;
   left: 0;
   vertical-align: baseline;
+  padding-bottom: 0;
 }
 
 #home_menu {
@@ -249,7 +293,7 @@ h1:after {
   display: flex;
   height: 70vh;
   flex-direction: column;
-  top: calc(var(--header_height)*0.8);
+  top: 8vh;
   left: 0;
   right: 0;
   margin: auto;
@@ -272,7 +316,7 @@ h1:after {
 
 h1.projects a, .projects h1 {
   font-family: meno-banner, serif;
-  font-size: calc(var(--h1_basesize) * 1.25);
+  font-size: calc(var(--h1_basesize) * 1.3);
   color: black;
 }
 
@@ -304,7 +348,7 @@ h1.information a, .information h1 {
   margin: auto;
   bottom: 1.5rem;
   text-align: center;
-  letter-spacing: 0.75em;
+  letter-spacing: 0.7em;
 }
 
 
@@ -314,11 +358,75 @@ h1.information a, .information h1 {
   --txt: black;
 }
 
+.projects header #projects img {
+  opacity: 1;
+}
+
+.projects h1 {
+  position: relative;
+  line-height: 1;
+  top: calc(var(--header_height) * 1.9);
+  margin-bottom: calc(var(--header_height) * 1.8);
+}
+
+.projects #reuleaux-triangle {
+  stroke: none;
+  fill: black;
+}
+
+.projects main {
+  top: -11px;
+}
+
+.projects section {
+  margin-top: 3rem;
+}
+
+.projects section:first-child {
+  margin-top: 0;
+}
+
+.projects h2 {
+  font-family: meno-display-condensed, serif;
+  font-weight: 300;
+  font-size: calc(var(--h1_basesize) * 1.5);
+  margin: 0;
+}
+
+.projects h2 em {
+  font-style: italic;
+  font-size: calc(var(--h1_basesize) * 1.5);
+}
+
+.projects .sup {
+  font-size: calc(var(--h1_basesize) * 1.5);
+  vertical-align: baseline;
+  font-variant-position: super;
+  -moz-font-feature-settings: "sups";
+  -webkit-font-feature-settings: "sups";
+  font-feature-settings: "sups";
+}
+
+.projects h3 {
+  font-size: calc(var(--h1_basesize) * 0.4);
+  font-variation-settings: 'wght' 325;
+  line-height: 1.6;
+}
 
 /* FRAGMENTS */
 .fragments {
   --bg: var(--fragments_bg);
   --txt: var(--green);
+  --shadow_color: rgba(0,0,0,0.5);
+}
+
+.fragments header #fragments img {
+  opacity: 1;
+}
+
+.fragments #square {
+  stroke: none;
+  fill: var(--green);
 }
 
 
@@ -328,6 +436,22 @@ h1.information a, .information h1 {
   --txt: var(--blue);
 }
 
+.annotations header #annotations img {
+  opacity: 1;
+}
+
+.annotations h1 {
+  position: relative;
+  line-height: 1;
+  top: calc(var(--header_height) * 1.75);
+  margin-bottom: calc(var(--header_height) * 1.5);
+}
+
+.annotations #circle {
+  stroke: none;
+  fill: var(--blue);
+}
+
 
 /* INFORMATION */
 .information {
@@ -335,13 +459,22 @@ h1.information a, .information h1 {
   --txt: var(--red);
 }
 
+.information header #information img {
+  opacity: 1;
+}
+
 .information h1 {
   position: relative;
   line-height: 1;
-  top: calc(var(--header_height) * 1.75);
-  margin-bottom: calc(var(--header_height) * 1.75);
+  top: calc(var(--header_height) * 2);
+  margin-bottom: calc(var(--header_height) * 2.3);
 }
 
-.indent {
-  margin-left: 1.2rem;
+.information h2 {
+  font-family: Zazz, monospace;
+  line-height: 1;
+  font-size: 1rem;
+  text-transform: uppercase;
+  word-break: break-all;
+  margin-top: 1.5rem;
 }
