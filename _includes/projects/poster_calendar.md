@@ -1,8 +1,3 @@
----
-title: poster / calendar
-layout: work
----
-
 # <span id="title">Poster / Calendar</span><span id="date">november 2017</span>
 
 <p class="fill"><img src="../images/poster_calendar/pc01.jpg"></p>
@@ -24,4 +19,4 @@ layout: work
 <p class="fill"><img src="../images/poster_calendar/pc07.jpg"></p>
 
 >___  
-+ [process](../documents/calendar_process_vannavu.pdf){:target="_blank"} 
++ [process](../documents/calendar_process_vannavu.pdf){:target="_blank"}
