@@ -1,6 +1,6 @@
 <section id="zazz"></section>
 
-## *Zazz* font and minisite <span class="sup">2019</span>
+## *Zazz* font and minisite&nbsp;<span class="sup">2019</span>
 
 ![](/images/zazz/zazz_01.gif)
 

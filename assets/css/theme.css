@@ -102,6 +102,7 @@ main blockquote {
 
 main blockquote p {
   width: 100%;
+  margin-bottom: 0.25rem !important;
 }
 
 main blockquote a {
@@ -120,8 +121,8 @@ main blockquote a:hover {
 .wrapper {
   position: relative;
   z-index: 1;
-  width: 66%;
-  min-width: 1200px;
+  width: 80%;
+  min-width: 1000px;
   margin: auto;
 }
 
@@ -139,6 +140,15 @@ main blockquote a:hover {
   animation: fadein 0.5s;
 }
 
+.sidebar a {
+  transition: all 0.3s;
+}
+
+.sidebar a:hover {
+  font-variation-settings: 'wght' 500;
+  transition: all 0.3s;
+}
+
 .logo-sidebar {
   border-bottom: 1px solid var(--txt);
   padding-bottom: 1rem;
@@ -147,7 +157,7 @@ main blockquote a:hover {
 
 .logo-sidebar #logo_container {
   width: 33%;
-  stroke-width: 3px;
+  stroke-width: 4px;
 }
 
 header {
@@ -203,6 +213,7 @@ header #header_pages {
   position: relative;
   left: 75px;
   width: calc(62.5% - 75px);
+  min-width: 600px;
   display: inline-flex;
   justify-content: space-between;
 }
@@ -340,6 +351,10 @@ h1.information a, .information h1 {
   line-height: calc(var(--h1_basesize) * 2.5);
 }
 
+h1.information a span, .information h2 span {
+  font-size: 0;
+}
+
 #home-index {
   position: fixed;
   display: inline-block;
@@ -375,7 +390,7 @@ h1.information a, .information h1 {
 }
 
 .projects main {
-  top: -11px;
+  top: -8px;
 }
 
 .projects section {
@@ -390,7 +405,8 @@ h1.information a, .information h1 {
   font-family: meno-display-condensed, serif;
   font-weight: 300;
   font-size: calc(var(--h1_basesize) * 1.5);
-  margin: 0;
+  margin: 0 0 1rem 0;
+  line-height: 1;
 }
 
 .projects h2 em {
@@ -464,7 +480,7 @@ h1.information a, .information h1 {
 }
 
 .annotations h2 { /* post title */
-  font-size: calc(var(--h1_basesize) * 0.55);
+  font-size: 1.925rem;
   line-height: 1;
   font-family: beastly, sans-serif;
   font-weight: 100; /* 12pt Beastly */
@@ -498,6 +514,14 @@ h1.information a, .information h1 {
   line-height: 1;
   top: calc(var(--header_height) * 2);
   margin-bottom: calc(var(--header_height) * 2.3);
+}
+
+.information .sidebar a::before {
+  content: "["
+}
+
+.information .sidebar a::after {
+  content: "]"
 }
 
 .information h2 {
