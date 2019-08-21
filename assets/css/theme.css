@@ -17,9 +17,9 @@
   --shadow_color: rgba(0,0,0,0.15);
   --green: #01A967;
   --blue: #0048E9;
-  --red: #EB5C5C;
+  --red: #EC4C4C;
   --projects_bg: #F5F5F5;
-  --fragments_bg: #141414;
+  --fragments_bg: #111111;
   --annotations_bg: #FFFAEA;
   --information_bg: #D9DFD7;
   --bg: white;
@@ -374,6 +374,10 @@ h1.information a span, .information h2 span {
   --txt: black;
 }
 
+.projects #graph {
+  opacity: 0;
+}
+
 .projects header #projects img {
   opacity: 1;
 }
@@ -457,7 +461,7 @@ h1.information a span, .information h2 span {
   min-width: 200px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  opacity: 0.5;
+  opacity: 0.4;
   position: fixed;
   top: 0;
   left: 0;
