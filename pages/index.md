@@ -11,4 +11,4 @@ layout: default
   <h1 class="information"><a href="/information/">I<span> </span>N<span> </span>F<span> </span>O<span> </span>R<span> </span>M<span> </span>A<span> </span>T<span> </span>I<span> </span>O<span> </span>N</a></h1>
 </div>
 
-<p id="home-index">VANNA VU</p>
+<p id="home-index"><span class="kern_v1">V</span>ANNA <span class="kern_v2">V</span>U</p>

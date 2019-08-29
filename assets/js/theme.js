@@ -53,4 +53,21 @@ $(document).ready(function() {
     $(this).css('z-index', 2);
   });
 
+  $(".fragments .sidebar").hover(blur, no_blur);
+  function blur() {
+    $("main").css({
+      "-webkit-filter": "blur(1px)",
+      "filter": "blur(10px)",
+      "transition": "all 0.5s"
+    });
+  }
+  function no_blur() {
+    $("main").css({
+      "-webkit-filter": "blur(0)",
+      "filter": "blur(0)",
+      "transition": "all 0.5s"
+    });
+  }
+
+
 });

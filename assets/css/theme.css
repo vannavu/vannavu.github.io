@@ -8,6 +8,15 @@
 }
 
 @font-face {
+  font-family: 'Orientation';
+  src: url('../fonts/Orientation-Regular-Web.woff2') format('woff2'),
+       url('../fonts/Orientation-Regular-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+@font-face {
   font-family: Zazz;
   src: url('../fonts/Zazz_v0.1.otf');
 }
@@ -24,7 +33,7 @@
   --information_bg: #D9DFD7;
   --bg: white;
   --txt: black;
-  --header_height: 58px;
+  --header_height: 51px;
   --content_margin: calc(var(--header_height));
   --h1_basesize: 3.5rem;
   --SourceCodePro: 'wght' 370;
@@ -49,6 +58,7 @@ body {
   color: var(--txt);
   font-family: SourceCodePro;
   font-variation-settings: var(--SourceCodePro);
+  font-feature-settings: "liga", "kern";
   font-size: 1rem;
   line-height: 1.45;
 }
@@ -93,6 +103,14 @@ main p, main h3 {
   width: 72%;
 }
 
+main p a, .sidebar p a {
+  border-bottom: 1px dotted var(--txt);
+}
+
+main p a:hover, .sidebar p a:hover {
+  border-bottom: 1px solid var(--txt);
+}
+
 main blockquote {
   width: calc(28% - 40px + 1rem);
   position: absolute;
@@ -109,11 +127,12 @@ main blockquote p {
 
 main blockquote a {
   transition: all 0.3s;
+  border-bottom: none;
 }
 
 main blockquote a:hover {
   font-variation-settings: 'wght' 500;
-  transition: all 0.3s;
+  transition: font-variation-settings 0.3s;
 }
 
 main blockquote img {
@@ -172,7 +191,7 @@ header {
   width: 100vw;
   background: var(--bg);
   transition: background 1s;
-  padding: 1.25em 0;
+  padding: 1em 0;
   box-shadow: 0 1px 4px var(--shadow_color);
 }
 
@@ -193,6 +212,14 @@ header #home {
 header #home a {
   color: var(--txt);
   letter-spacing: 0.7em;
+}
+
+.kern_v1 {
+  letter-spacing: 0.65em;
+}
+
+.kern_v2 {
+  letter-spacing: 0.575em;
 }
 
 header #projects a {
@@ -347,7 +374,7 @@ h1.projects a, .projects h1 {
 }
 
 h1.fragments a, .fragments h1 {
-  font-family: SourceCodePro, sans-serif;
+  font-family: Orientation, sans-serif;
   font-size: calc(var(--h1_basesize) * 1.45);
   color: var(--green);
 }
@@ -399,8 +426,8 @@ h1.information a span, .information h2 span {
 .projects h1 {
   position: relative;
   line-height: 1;
-  top: calc(var(--header_height) * 1.9);
-  margin-bottom: calc(var(--header_height) * 1.8);
+  top: calc(var(--header_height) * 2.25);
+  margin-bottom: calc(var(--header_height) * 2);
 }
 
 .projects #reuleaux-triangle {
@@ -434,6 +461,7 @@ h1.information a span, .information h2 span {
 }
 
 .projects .sup {
+  margin-left: calc(var(--h1_basesize) * -0.07);
   font-size: calc(var(--h1_basesize) * 1.5);
   vertical-align: baseline;
   font-variant-position: super;
@@ -446,6 +474,7 @@ h1.information a span, .information h2 span {
   font-size: calc(var(--h1_basesize) * 0.4);
   font-variation-settings: 'wght' 325;
   line-height: 1.6;
+  margin-bottom: calc(var(--h1_basesize) * 0.3);
 }
 
 /* FRAGMENTS */
@@ -459,6 +488,13 @@ h1.information a span, .information h2 span {
   opacity: 0.2;
 }
 
+.fragments h1 {
+  position: relative;
+  line-height: 1;
+  top: calc(var(--header_height) * 2.05);
+  margin-bottom: calc(var(--header_height) * 1.7);
+}
+
 .fragments .sidebar {
   z-index: 1;
 }
@@ -469,6 +505,7 @@ h1.information a span, .information h2 span {
   left: 0;
   width: 100vw;
   height: 100vh;
+  transition: all 0.5s;
 }
 
 .fragments main img, .fragments main video {
@@ -484,7 +521,7 @@ h1.information a span, .information h2 span {
 }
 
 .fragments main video {
-  min-width: 25vw;
+  min-width: 300px;
 }
 
 .fragments main img:hover, .fragments main video:hover {
@@ -492,7 +529,7 @@ h1.information a span, .information h2 span {
   -webkit-filter: none;
   filter: none;
   transition: -webkit-filter 0.5s, filter 0.5s, opacity 0.5s;
-  cursor: move;
+  cursor: url('/images/logo/drag.svg'), move;
 }
 
 .fragments header #fragments img {
@@ -525,8 +562,8 @@ h1.information a span, .information h2 span {
 .annotations h1 {
   position: relative;
   line-height: 1;
-  top: calc(var(--header_height) * 1.75);
-  margin-bottom: calc(var(--header_height) * 1.5);
+  top: calc(var(--header_height) * 2);
+  margin-bottom: calc(var(--header_height) * 1.7);
 }
 
 .annotations #circle {
@@ -567,16 +604,8 @@ h1.information a span, .information h2 span {
 .information h1 {
   position: relative;
   line-height: 1;
-  top: calc(var(--header_height) * 2);
-  margin-bottom: calc(var(--header_height) * 2.3);
-}
-
-.information .sidebar a::before {
-  content: "["
-}
-
-.information .sidebar a::after {
-  content: "]"
+  top: calc(var(--header_height) * 2.25);
+  margin-bottom: calc(var(--header_height) * 2.6);
 }
 
 .information h2 {
@@ -585,5 +614,12 @@ h1.information a span, .information h2 span {
   font-size: 1rem;
   text-transform: uppercase;
   word-break: break-all;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
+}
+
+.information h3 {
+  font-size: calc(var(--h1_basesize) * 0.4);
+  font-variation-settings: 'wght' 325;
+  line-height: 1.6;
+  margin-bottom: calc(var(--h1_basesize) * 0.2);
 }
