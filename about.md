@@ -1,6 +1,6 @@
 ---
 title: work
-layout: inprog
+layout: default
 ---
 
 <h1 id="about"><span id="title">About</span><span id="date">updated december 2018</span></h1>

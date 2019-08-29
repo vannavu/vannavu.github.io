@@ -1,4 +1,4 @@
 ---
 title: work
-layout: inprog
+layout: home
 ---

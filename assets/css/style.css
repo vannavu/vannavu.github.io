@@ -1,12 +1,4 @@
-@import url("https://use.typekit.net/mqb3eja.css");
-
-@font-face {
-  font-family: Pitch;
-  src: url('../fonts/PitchSansWeb-Semibold.eot');
-  src: url('../fonts/PitchSansWeb-Semibold.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/PitchSansWeb-Semibold.woff2') format('woff2'),
-       url('../fonts/PitchSansWeb-Semibold.woff') format('woff');
-}
+@import url("https://use.typekit.net/qxw1vwf.css");
 
 html {
 	height: 100%;
@@ -133,8 +125,9 @@ h1 span {
 
 /* synopsis */
 h2 {
-	font-family: "Pitch", monospace;
+	font-family: "Source Code Pro", monospace;
 	font-size: 24px;
+  font-weight: 200;
 	line-height: 1.5em;
 	color: black;
 	margin: 0 0 16px 0;
