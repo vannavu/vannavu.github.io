@@ -113,8 +113,7 @@ main p a:hover, .sidebar p a:hover {
 
 main blockquote {
   width: calc(28% - 40px + 1rem);
-  position: absolute;
-  right: 0;
+  float: right;
   margin: 0;
   padding-left: 1rem;
   border-left: 1px solid var(--txt);
@@ -493,6 +492,7 @@ h1.information a span, .information h2 span {
   line-height: 1;
   top: calc(var(--header_height) * 2.05);
   margin-bottom: calc(var(--header_height) * 1.7);
+  z-index: 1;
 }
 
 .fragments .sidebar {
@@ -512,7 +512,7 @@ h1.information a span, .information h2 span {
   min-width: 250px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  opacity: 0.4;
+  opacity: 0.25;
   position: fixed;
   top: 0;
   left: 0;
@@ -529,7 +529,7 @@ h1.information a span, .information h2 span {
   -webkit-filter: none;
   filter: none;
   transition: -webkit-filter 0.5s, filter 0.5s, opacity 0.5s;
-  cursor: url('/images/logo/drag.svg'), move;
+  cursor: url('/images/logo/drag.png'), move;
 }
 
 .fragments header #fragments img {
