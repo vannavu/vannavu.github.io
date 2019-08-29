@@ -95,7 +95,8 @@ main p, main h3 {
 
 main blockquote {
   width: calc(28% - 40px + 1rem);
-  float: right;
+  position: absolute;
+  right: 0;
   margin: 0;
   padding-left: 1rem;
   border-left: 1px solid var(--txt);
@@ -113,6 +114,10 @@ main blockquote a {
 main blockquote a:hover {
   font-variation-settings: 'wght' 500;
   transition: all 0.3s;
+}
+
+main blockquote img {
+  width: 100%;
 }
 
 .indent {
@@ -271,11 +276,16 @@ h1:after {
 	content: "";
 	display: inline-block;
 	width: 100%;
+  font-size: 0;
   line-height: 0;
 }
 
 
 /* INDEX */
+.home #graph {
+  opacity: 0.02;
+}
+
 .home #logo_container {
   position: fixed;
   top: 8vh;
@@ -284,7 +294,7 @@ h1:after {
   left: 0;
   right: 0;
   margin: auto;
-  opacity: 0.75;
+
   animation: fadein 1s;
 }
 
@@ -294,8 +304,10 @@ h1:after {
 
 .home main {
   width: 100%;
+  height: 80vh;
   display: block;
   left: 0;
+  top: 8vh;
   vertical-align: baseline;
   padding-bottom: 0;
 }
@@ -303,9 +315,9 @@ h1:after {
 #home_menu {
   position: absolute;
   display: flex;
-  height: 70vh;
   flex-direction: column;
-  top: 8vh;
+  top: 50%;
+  transform: translate(0, -50%);
   left: 0;
   right: 0;
   margin: auto;
@@ -317,13 +329,15 @@ h1:after {
   height: 100%;
 }
 
-.home h1 {
-  transition: opacity 0.3s;
+.home h1 a {
+  opacity: 0.05;
+  line-height: 1;
+  transition: opacity 1s;
 }
 
-.home h1:hover {
-  opacity: 0.6;
-  transition: opacity 0.3s;
+.home h1 a:hover {
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
 h1.projects a, .projects h1 {
@@ -375,7 +389,7 @@ h1.information a span, .information h2 span {
 }
 
 .projects #graph {
-  opacity: 0;
+  opacity: 0.02;
 }
 
 .projects header #projects img {
@@ -458,7 +472,7 @@ h1.information a span, .information h2 span {
 }
 
 .fragments main img, .fragments main video {
-  min-width: 200px;
+  min-width: 250px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0.4;
@@ -467,6 +481,10 @@ h1.information a span, .information h2 span {
   left: 0;
   box-shadow: none;
   transition: -webkit-filter 0.5s, filter 0.5s, opacity 0.5s;
+}
+
+.fragments main video {
+  min-width: 25vw;
 }
 
 .fragments main img:hover, .fragments main video:hover {

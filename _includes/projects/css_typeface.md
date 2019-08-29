@@ -1,6 +1,6 @@
 <section id="css_typeface"></section>
 
-## CSS Typeface&nbsp;<span class="sup">2018</span>
+## CSS typeface&nbsp;<span class="sup">2018</span>
 
 ![](/images/css_typeface/css_typeface_01.gif)
 
