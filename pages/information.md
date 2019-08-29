@@ -6,9 +6,12 @@ layout: information
 
 ![](/images/portrait.jpg)
 
-> [v@vannavu.com](mailto:v@vannavu.com)  
-IG: [@vanna_vu](https://www.instagram.com/vanna_vu/)  
-[↗ Are.na](https://www.are.na/vanna-vu/blocks?sort=UPDATED_AT)
+> [v@vannavu.com](mailto:v@vannavu.com)   
+[IG: @vanna_vu](https://www.instagram.com/vanna_vu/)  
+&nbsp;  
+Other links:  
+↗ [Are.na](https://www.are.na/vanna-vu/blocks?sort=UPDATED_AT)  
+↗ [Fall 2018 archive](https://vannavu.com/referencerepository/)  
 
 ### [Typo]graphic & interactive designer
 
