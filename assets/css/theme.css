@@ -790,7 +790,7 @@ h1.information a span, .information h1 span {
     margin-left: 0.6rem;
   }
   .information h1 {
-    top: calc(var(--header_height) * 2);
+    top: calc(var(--header_height) * 2.15);
     margin-bottom: calc(var(--header_height) * 3);
   }
 }
