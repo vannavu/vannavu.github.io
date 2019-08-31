@@ -146,7 +146,8 @@ main blockquote img {
   position: relative;
   z-index: 1;
   width: 80%;
-  min-width: 1000px;
+  min-width: 900px;
+  max-width: 1500px;
   margin: auto;
 }
 
@@ -459,16 +460,6 @@ h1.information a span, .information h1 span {
   font-size: calc(var(--h1_basesize) * 1.5);
 }
 
-.projects .sup {
-  margin-left: calc(var(--h1_basesize) * -0.07);
-  font-size: calc(var(--h1_basesize) * 1.5);
-  vertical-align: baseline;
-  font-variant-position: super;
-  -moz-font-feature-settings: "sups";
-  -webkit-font-feature-settings: "sups";
-  font-feature-settings: "sups";
-}
-
 .projects h3 {
   font-size: 1.4rem;
   font-variation-settings: 'wght' 345;
@@ -581,18 +572,6 @@ h1.information a span, .information h1 span {
   margin-bottom: 0.5rem;
 }
 
-.annotations .post_date {
-  position: relative;
-  font-family: SourceCodePro;
-  top: -0.22rem;
-  padding: 0.18rem 0.5rem;
-  /*color: var(--annotations_bg);
-  background: var(--txt);
-  font-variation-settings: 'wght' 300;*/
-  border-left: 1px solid var(--txt);
-  margin-left: 0.6rem;
-}
-
 /* INFORMATION */
 .information {
   --bg: var(--information_bg);
@@ -622,11 +601,9 @@ h1.information a span, .information h1 span {
 .information h3 {
   font-size: 1.4rem;
   font-variation-settings: 'wght' 345;
-  line-height: 1.6;
+  line-height: 1.4;
   margin-bottom: 0.75rem;
 }
-
-
 
 @media only screen and (max-width: 1000px) {
   :root {
@@ -685,17 +662,20 @@ h1.information a span, .information h1 span {
     --root_ptsize: 14px;
     --header_height: 36px;
   }
+  body {
+    line-height: 1.5;
+  }
   .home #logo_container {
-    width: 55vw;
-    height: 55vw;
+    width: 60vw;
+    height: 60vw;
     top: 12vw;
     stroke-width: 2px;
   }
   #home_menu {
-    top: 77.5vw;
+    top: 75vw;
   }
   #home_menu h1 {
-    margin-bottom: calc(var(--h1_basesize) * -1);
+    margin-bottom: calc(var(--h1_basesize) * -2.25);
   }
   header {
     padding: 0.5em 0;
@@ -716,6 +696,8 @@ h1.information a span, .information h1 span {
   }
   header img {
     opacity: 0.2;
+    height: 1rem;
+    margin: 0 0 0 0.5rem;
   }
   main p, main h3 {
     width: 100%;
@@ -735,5 +717,80 @@ h1.information a span, .information h1 span {
   h1.annotations a, .annotations h1 {
     font-weight: 400; /* 18pt Beastly */
   }
-
+  .projects h1 {
+    top: calc(var(--header_height) + var(--h1_basesize) * 2.25);
+    margin-bottom: calc(var(--h1_basesize) * 5);
+  }
+  .projects section {
+    margin-top: 2rem;
+  }
+  .projects section:first-child {
+    margin-top: 2rem;
+  }
+  .projects h2 {
+    font-size: 2.5rem;
+    margin: 0 0 0.5rem 0;
+  }
+  .projects h2 em {
+    font-size: 2.5rem;
+  }
+  .projects h3 {
+    font-size: 1rem;
+    font-variation-settings: var(--SourceCodePro);
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+  }
+  .fragments h1 {
+    position: relative;
+    margin-bottom: calc(var(--h1_basesize) * 5);
+    line-height: 1;
+    top: calc(var(--header_height) * 1.9);
+    z-index: auto;
+    height: auto;
+    overflow: auto;
+  }
+  .fragments main {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+    height: auto;
+    transition: none;
+  }
+  .fragments main img, .fragments main video {
+    width: 100%;
+    height: auto;
+    -webkit-filter: none;
+    filter: none;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    box-shadow: none;
+    transition: none;
+    margin-bottom: 1rem;
+  }
+  .fragments main video {
+    min-width: auto;
+  }
+  .annotations h1 {
+    top: calc(var(--header_height) * 2.05);
+    margin-bottom: calc(var(--header_height) * 2.4);
+  }
+  .annotations h2 { /* post title */
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .annotations .post_date {
+    position: relative;
+    font-family: SourceCodePro;
+    top: -0.09rem;
+    padding: 0.18rem 0.5rem;
+    border-left: 1px solid var(--txt);
+    margin-left: 0.6rem;
+  }
+  .information h1 {
+    top: calc(var(--header_height) * 2);
+    margin-bottom: calc(var(--header_height) * 3);
+  }
 }
