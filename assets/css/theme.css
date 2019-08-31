@@ -672,7 +672,7 @@ h1.information a span, .information h1 span {
     stroke-width: 2px;
   }
   #home_menu {
-    top: 75vw;
+    top: 80vw;
   }
   #home_menu h1 {
     margin-bottom: calc(var(--h1_basesize) * -2.25);
