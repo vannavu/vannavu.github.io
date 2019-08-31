@@ -15,7 +15,7 @@
 
 ### Lettering for the ARCH poster series organized by the non-profit Type Hike (2019)
 
-<br><br><br>
+<br>
 
 ![](/images/posters/beachhouse.jpg)
 

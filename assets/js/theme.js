@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
   $(".fragments main img").each(function(){
-    var random_width = Math.random() * (25 - 10) + 10 + '%',
+    var random_height = Math.random() * (45 - 25) + 25 + 'vh',
       random_top = Math.random() * 80 + 'vh',
       random_left = Math.random() * 80 + '%';
     $(this).css({
-      'width': random_width,
+      'height': random_height,
       'top': random_top,
       'left': random_left
     });
@@ -68,6 +68,5 @@ $(document).ready(function() {
       "transition": "all 0.5s"
     });
   }
-
 
 });

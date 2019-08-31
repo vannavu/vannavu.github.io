@@ -36,7 +36,7 @@
   --header_height: 51px;
   --content_margin: calc(var(--header_height));
   --h1_basesize: 3.5rem;
-  --SourceCodePro: 'wght' 370;
+  --SourceCodePro: 'wght' 380;
 }
 
 * {
@@ -219,6 +219,7 @@ header #home a {
 
 .kern_v2 {
   letter-spacing: 0.575em;
+  margin-left: -0.5em;
 }
 
 header #projects a {
@@ -320,7 +321,6 @@ h1:after {
   left: 0;
   right: 0;
   margin: auto;
-
   animation: fadein 1s;
 }
 
@@ -389,10 +389,10 @@ h1.information a, .information h1 {
   font-family: Zazz, monospace;
   font-size: var(--h1_basesize);
   color: var(--red);
-  line-height: calc(var(--h1_basesize) * 2.5);
+  line-height: calc(var(--h1_basesize) * 1.75);
 }
 
-h1.information a span, .information h2 span {
+h1.information a span, .information h1 span {
   font-size: 0;
 }
 
@@ -470,10 +470,10 @@ h1.information a span, .information h2 span {
 }
 
 .projects h3 {
-  font-size: calc(var(--h1_basesize) * 0.4);
-  font-variation-settings: 'wght' 325;
+  font-size: 1.4rem;
+  font-variation-settings: 'wght' 345;
   line-height: 1.6;
-  margin-bottom: calc(var(--h1_basesize) * 0.3);
+  margin-bottom: 0.75rem;
 }
 
 /* FRAGMENTS */
@@ -491,12 +491,14 @@ h1.information a span, .information h2 span {
   position: relative;
   line-height: 1;
   top: calc(var(--header_height) * 2.05);
-  margin-bottom: calc(var(--header_height) * 1.7);
   z-index: 1;
+  height: calc(var(--h1_basesize) * 1.45);
+  overflow: hidden;
 }
 
 .fragments .sidebar {
   z-index: 1;
+  margin-top: calc(var(--header_height) * 3.2);
 }
 
 .fragments main {
@@ -509,7 +511,7 @@ h1.information a span, .information h2 span {
 }
 
 .fragments main img, .fragments main video {
-  min-width: 250px;
+  width: auto;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0.25;
@@ -618,8 +620,120 @@ h1.information a span, .information h2 span {
 }
 
 .information h3 {
-  font-size: calc(var(--h1_basesize) * 0.4);
-  font-variation-settings: 'wght' 325;
+  font-size: 1.4rem;
+  font-variation-settings: 'wght' 345;
   line-height: 1.6;
-  margin-bottom: calc(var(--h1_basesize) * 0.2);
+  margin-bottom: 0.75rem;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  :root {
+    --root_ptsize: 15px;
+    --h1_basesize: 5vw;
+  }
+  .wrapper {
+    min-width: auto;
+    width: 90vw;
+  }
+  .home #logo_container {
+    width: 45vw;
+    height: 45vw;
+    top: 5vw;
+  }
+  #home_menu {
+    position: absolute;
+    display: block;
+    top: 62vw;
+  }
+  .home h1 a {
+    opacity: 1;
+  }
+  #home_menu h1 {
+    margin-bottom: calc(var(--h1_basesize) * -0.75);
+  }
+  header #home {
+    width: auto;
+  }
+  header #header_pages {
+    left: 0;
+    width: auto;
+    min-width: auto;
+  }
+  header #header_pages li {
+    margin-left: 1rem;
+  }
+  .sidebar, .logo-sidebar {
+    display: none;
+  }
+  main {
+    display: block;
+    left: 0;
+    width: 100%;
+  }
+  h1.annotations a, .annotations h1 {
+    font-weight: 500; /* 36pt Beastly */
+  }
+  h1.information a span, .information h2 span {
+    font-size: 0;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  :root {
+    --root_ptsize: 14px;
+    --header_height: 36px;
+  }
+  .home #logo_container {
+    width: 55vw;
+    height: 55vw;
+    top: 12vw;
+    stroke-width: 2px;
+  }
+  #home_menu {
+    top: 77.5vw;
+  }
+  #home_menu h1 {
+    margin-bottom: calc(var(--h1_basesize) * -1);
+  }
+  header {
+    padding: 0.5em 0;
+  }
+  header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header #home a {
+    font-size: 0;
+  }
+  header #home a span {
+    font-size: 1rem;
+  }
+  header #header_pages li a {
+    font-size: 0;
+  }
+  header img {
+    opacity: 0.2;
+  }
+  main p, main h3 {
+    width: 100%;
+  }
+  main img {
+    width: 100%;
+  }
+  main blockquote {
+    width: 100%;
+    float: none;
+    border-left: none;
+    border-top: 1px solid var(--txt);
+    border-bottom: 1px solid var(--txt);
+    padding: 0.75rem 0;
+    margin-bottom: 1rem;
+  }
+  h1.annotations a, .annotations h1 {
+    font-weight: 400; /* 18pt Beastly */
+  }
+
 }
