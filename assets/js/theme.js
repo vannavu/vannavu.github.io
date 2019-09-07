@@ -1,37 +1,5 @@
 var window_width = $(window).width();
 
-function cacheImages(array){
-  if (!cacheImages.list) {
-      cacheImages.list = [];
-  }
-  var list = cacheImages.list;
-  for (var i = 0; i < array.length; i++) {
-      var img = new Image();
-      img.onload = function() {
-          var index = list.indexOf(this);
-          if (index !== -1) {
-              // remove image from the array once it's loaded
-              // for memory consumption reasons
-              list.splice(index, 1);
-          }
-      }
-      list.push(img);
-      img.src = array[i];
-  }
-}
-cacheImages([
-  "/images/archive/google_maps.jpg",
-  "/images/archive/tilde_landscape.jpg",
-  "/images/archive/tilde_sunset.jpg",
-  "/images/archive/ageofadz.png",
-  "/images/archive/badcomm.jpg",
-  "/images/archive/editorial01.jpg",
-  "/images/archive/editorial02.jpg",
-  "/images/archive/editorial03.jpg",
-  "/images/archive/emergenceofsimplegeometries.png",
-  "/images/archive/univers.jpg"
-]);
-
 if (window_width > 710) {
 
   $(".fragments main img").each(function(i){
