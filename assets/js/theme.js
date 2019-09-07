@@ -1,18 +1,16 @@
-$(window).bind("load", function() {
-
 var window_width = $(window).width();
 
   if (window_width > 710) {
 
-    $(".fragments main img").each(function(){
+    $(".fragments main img").each(function(i){
         var random_height = Math.random() * (45 - 25) + 25 + 'vh',
           random_top = Math.random() * 80 + 'vh',
           random_left = Math.random() * 80 + '%';
+        $(this).delay(500*i).fadeIn(750);
         $(this).css({
           'height': random_height,
           'top': random_top,
           'left': random_left,
-          'visibility': 'visible'
         });
         $(this).resizable({
           aspectRatio: true
@@ -28,15 +26,15 @@ var window_width = $(window).width();
         $(this).get(0).pause();
     }
 
-    $(".fragments main video").each(function(){
+    $(".fragments main video").each(function(i){
       var random_width = Math.random() * (25 - 10) + 10 + '%',
         random_top = Math.random() * 80 + 'vh',
         random_left = Math.random() * 80 + '%';
+      $(this).delay(500*i).fadeIn(750);
       $(this).css({
         'width': random_width,
         'top': random_top,
         'left': random_left,
-        'visibility': 'visible'
       });
       $(this).resizable({
         aspectRatio: true
@@ -81,4 +79,3 @@ var window_width = $(window).width();
       $(this).get(0).play();
     });
   }
-});
