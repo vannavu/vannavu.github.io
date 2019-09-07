@@ -17,10 +17,10 @@ layout: fragments
 ![](/images/archive/univers.jpg)
 
 
-<video src="/images/archive/zazz_flash.mp4" poster="/images/archive/zazz_flash.jpg" loop muted preload></video>
+<video src="/images/archive/zazz_flash.mp4" poster="/images/archive/zazz_flash.jpg" loop muted></video>
 
-<video src="/images/archive/eatingstairs.mp4" poster="/images/archive/eatingstairs.jpg" loop muted preload></video>
+<video src="/images/archive/eatingstairs.mp4" poster="/images/archive/eatingstairs.jpg" loop muted></video>
 
-<video src="/images/archive/rotatingsegments.mp4" poster="/images/archive/rotatingsegments.jpg" loop muted preload></video>
+<video src="/images/archive/rotatingsegments.mp4" poster="/images/archive/rotatingsegments.jpg" loop muted></video>
 
-<video src="/images/archive/rotatedgrid.mp4" poster="/images/archive/rotatedgrid.jpg" loop muted preload></video>
+<video src="/images/archive/rotatedgrid.mp4" poster="/images/archive/rotatedgrid.jpg" loop muted></video>
