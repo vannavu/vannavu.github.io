@@ -1,6 +1,4 @@
-$(document).ready(function() {
-
-  var window_width = $(window).width();
+var window_width = $(window).width();
 
   if (window_width > 710) {
 
@@ -79,5 +77,3 @@ $(document).ready(function() {
       $(this).get(0).play();
     });
   }
-
-});
