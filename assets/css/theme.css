@@ -508,7 +508,10 @@ h1.information a span, .information h1 span {
   left: 0;
   box-shadow: none;
   transition: -webkit-filter 0.5s, filter 0.5s, opacity 0.5s;
-  display: none;
+}
+
+.fragments main img {
+  height: 100px;
 }
 
 .fragments main video {
