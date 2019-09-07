@@ -244,16 +244,13 @@ header ul li {
 }
 
 header #header_pages {
+  display: inline-block;
   position: relative;
   left: 75px;
-  width: calc(62.5% - 75px);
-  min-width: 600px;
-  display: inline-flex;
-  justify-content: space-between;
 }
 
 header #header_pages li {
-  display: inline-flex;
+  margin-right: 3rem;
 }
 
 header img {
@@ -630,16 +627,26 @@ h1.information a span, .information h1 span {
   #home_menu h1 {
     margin-bottom: calc(var(--h1_basesize) * -0.75);
   }
+  header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   header #home {
+    display: inline-block;
     width: auto;
+  }
+  header #home a {
+    font-size: 0;
+  }
+  header #home a span {
+    font-size: 1rem;
   }
   header #header_pages {
     left: 0;
-    width: auto;
-    min-width: auto;
   }
   header #header_pages li {
-    margin-left: 1rem;
+    margin: 0 0 0 1.5rem;
   }
   .sidebar, .logo-sidebar {
     display: none;
@@ -680,16 +687,8 @@ h1.information a span, .information h1 span {
   header {
     padding: 0.5em 0;
   }
-  header ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  header #home a {
-    font-size: 0;
-  }
-  header #home a span {
-    font-size: 1rem;
+  header #header_pages {
+
   }
   header #header_pages li a {
     font-size: 0;
@@ -697,7 +696,10 @@ h1.information a span, .information h1 span {
   header img {
     opacity: 0.2;
     height: 1rem;
-    margin: 0 0 0 0.5rem;
+    margin: 5.5px 0 0 0;
+  }
+  header #header_pages li#information {
+    margin-left: 1.2rem;
   }
   main p, main h3 {
     width: 100%;
