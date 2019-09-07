@@ -502,7 +502,8 @@ h1.information a span, .information h1 span {
   width: auto;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  opacity: 0;
+  opacity: 0.25;
+  visibility: hidden;
   position: fixed;
   top: 0;
   left: 0;

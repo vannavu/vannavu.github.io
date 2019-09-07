@@ -12,7 +12,7 @@ var window_width = $(window).width();
           'height': random_height,
           'top': random_top,
           'left': random_left,
-          'opacity': 0.25
+          'visibility': 'visible'
         });
         $(this).resizable({
           aspectRatio: true
@@ -36,7 +36,7 @@ var window_width = $(window).width();
         'width': random_width,
         'top': random_top,
         'left': random_left,
-        'opacity': 0.25
+        'visibility': 'visible'
       });
       $(this).resizable({
         aspectRatio: true
