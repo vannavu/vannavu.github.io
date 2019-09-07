@@ -1,20 +1,23 @@
+$(window).bind("load", function() {
+
 var window_width = $(window).width();
 
   if (window_width > 710) {
 
     $(".fragments main img").each(function(){
-      var random_height = Math.random() * (45 - 25) + 25 + 'vh',
-        random_top = Math.random() * 80 + 'vh',
-        random_left = Math.random() * 80 + '%';
-      $(this).css({
-        'height': random_height,
-        'top': random_top,
-        'left': random_left
-      });
-      $(this).resizable({
-        aspectRatio: true
-      });
-      $(this).parent().addClass('img_container');
+        var random_height = Math.random() * (45 - 25) + 25 + 'vh',
+          random_top = Math.random() * 80 + 'vh',
+          random_left = Math.random() * 80 + '%';
+        $(this).css({
+          'height': random_height,
+          'top': random_top,
+          'left': random_left,
+          'opacity': 0.25
+        });
+        $(this).resizable({
+          aspectRatio: true
+        });
+        $(this).parent().addClass('img_container');
     });
 
     var figure = $(".fragments main video").hover( hoverVideo, hideVideo );
@@ -32,7 +35,8 @@ var window_width = $(window).width();
       $(this).css({
         'width': random_width,
         'top': random_top,
-        'left': random_left
+        'left': random_left,
+        'opacity': 0.25
       });
       $(this).resizable({
         aspectRatio: true
@@ -77,3 +81,4 @@ var window_width = $(window).width();
       $(this).get(0).play();
     });
   }
+});
