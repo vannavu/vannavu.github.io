@@ -68,6 +68,11 @@ $(document).ready(function() {"use strict";
     "/images/archive/editorial02.jpg",
     "/images/archive/editorial03.jpg",
     "/images/archive/emergenceofsimplegeometries.png",
-    "/images/archive/univers.jpg"
+    "/images/archive/univers.jpg",
+    "/images/css_typeface/css_typeface_01.gif",
+    "/images/zazz/zazz_01.gif",
+    "/images/posters/zazz.jpg",
+    "/images/posters/samfoxcalendar.gif",
+    "/images/portrait.jpg"
   ]);
 });
