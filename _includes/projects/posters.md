@@ -19,7 +19,7 @@
 
 ![](/images/posters/beachhouse.jpg)
 
-### Custom type (2018)
+### Custom type echoing the rhythms of the band Beach House (2018)
 
 <br>
 
