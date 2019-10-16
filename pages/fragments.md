@@ -5,6 +5,7 @@ layout: fragments
 ---
 
 ![](/images/archive/zazz_multi.jpg)
+![](/images/archive/zazz_multi02.jpg)
 ![](/images/archive/zazz_sketch.jpg)
 ![](/images/archive/zazz_flash.gif)
 ![](/images/archive/moire.jpg)
