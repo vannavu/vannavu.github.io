@@ -444,7 +444,7 @@ h1.information a span, .information h1 span {
   margin-top: 0;
 }
 
-.projects h2 {
+.projects h2, .projects h2 a {
   font-family: meno-display-condensed, serif;
   font-weight: 300;
   font-size: calc(var(--h1_basesize) * 1.5);

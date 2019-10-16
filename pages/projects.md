@@ -9,3 +9,6 @@ layout: projects
 {% include projects/css_typeface.md %}
 {% include projects/100_years.md %}
 {% include projects/posters.md %}
+
+<section></section>
+## [*More…*](/fragments)
