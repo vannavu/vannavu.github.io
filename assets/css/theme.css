@@ -525,6 +525,22 @@ h1.information a span, .information h1 span {
   fill: var(--green);
 }
 
+.fragments img[src*="#caption"] {
+  margin-bottom: 1rem;
+}
+
+.fragments h3 {
+  font-size: 1rem;
+  line-height: 1.45;
+  margin: 0 auto 20vh auto;
+  text-align: center;
+}
+
+.fragments h3 a {
+  font-style: italic;
+  border-bottom: 1px dotted var(--txt);
+}
+
 
 /* ANNOTATIONS */
 .annotations {
@@ -563,7 +579,7 @@ h1.information a span, .information h1 span {
   font-size: 1.925rem;
   line-height: 1;
   font-family: beastly, sans-serif;
-  font-weight: 100; /* 12pt Beastly */
+  font-weight: 400; /* 18pt Beastly */
 }
 
 .annotations .post_date {
@@ -571,9 +587,6 @@ h1.information a span, .information h1 span {
   font-family: SourceCodePro;
   top: -0.22rem;
   padding: 0.18rem 0.5rem;
-  /*color: var(--annotations_bg);
-  background: var(--txt);
-  font-variation-settings: 'wght' 300;*/
   border-left: 1px solid var(--txt);
   margin-left: 0.6rem;
 }
@@ -786,7 +799,8 @@ h1.information a span, .information h1 span {
     top: calc(var(--header_height) * 2.05);
     margin-bottom: calc(var(--header_height) * 2.4);
   }
-  .annotations h2 { /* post title */
+  .annotations h2 a { /* post title */
+    font-weight: 100; /* 12pt Beastly */
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
   }
