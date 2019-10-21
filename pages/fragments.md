@@ -27,6 +27,7 @@ layout: fragments
 ![](/images/archive/typesketch001.jpg)
 ![](/images/archive/typesketch002.jpg)
 ![](/images/archive/typesketch004.jpeg)
+![](/images/archive/typesketch005.jpg)
 ![](/images/archive/eatingstairs.gif)
 ![](/images/archive/tilde_landscape.jpg)
 ![](/images/archive/tilde_sunset.jpg)
