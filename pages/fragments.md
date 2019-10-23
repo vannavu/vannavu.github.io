@@ -4,6 +4,7 @@ permalink: /fragments/
 layout: fragments
 ---
 
+![](/images/archive/moire02.gif)
 ![](/images/archive/zazz_multi.jpg)
 ![](/images/archive/zazz_multi02.jpg)
 ![](/images/archive/zazz_sketch.jpg)
