@@ -4,7 +4,6 @@ permalink: /fragments/
 layout: fragments
 ---
 
-![](/images/archive/moire02.gif)
 ![](/images/archive/zazz_multi.jpg)
 ![](/images/archive/zazz_multi02.jpg)
 ![](/images/archive/zazz_sketch.jpg)
@@ -13,6 +12,7 @@ layout: fragments
 ![](/images/archive/editorial02.jpg)
 ![](/images/archive/editorial03.jpg#caption)
 ### [How?](https://www.instagram.com/p/BcG7bpeAqrh/?utm_source=ig_web_copy_link){:target="\_blank"}
+![](/images/archive/moire02.gif)
 ![](/images/archive/univers.jpg)
 ![](/images/archive/emergenceofsimplegeometries.png)
 ![](/images/archive/ageofadz.png)
