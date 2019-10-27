@@ -38,6 +38,4 @@ layout: fragments
 ![](/images/archive/rotatingstripes01.jpg)
 ![](/images/archive/rotatingsegments.gif)
 ![](/images/archive/rotatingstripes02.jpg)
-![](/images/archive/vitamin_box.gif)
-![](/images/archive/nervous_nate.gif)
 ![](/images/archive/buckhead.jpg)
