@@ -19,6 +19,7 @@ url: "http://vannavu.com" # the base hostname & protocol for your site, e.g. htt
 email: v@vannavu.com
 instagram: "http://instagram.com/vanna_vu"
 github: "http://github.com/vannavu"
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown

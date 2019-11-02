@@ -600,6 +600,39 @@ h1.information a span, .information h1 span {
   list-style: decimal;
 }
 
+.annotations main img {
+  margin: 1rem 0;
+}
+
+.annotations main p {
+  line-height: 1.7;
+}
+
+.annotations main blockquote p, .annotations main blockquote p em, .annotations main blockquote p a {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  font-variation-settings: 'wght' 400;
+}
+
+.annotations main blockquote p strong {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  font-variation-settings: 'wght' 500;
+}
+
+.annotations h4, .annotations h4 em {
+  font-size: 1.5rem;
+  font-variation-settings: 'wght' 325;
+  line-height: 1.6;
+  padding-left: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.annotations h4::before {
+  content: open-quote;
+  margin-left: -0.9rem;
+}
+
 /* INFORMATION */
 .information {
   --bg: var(--information_bg);
