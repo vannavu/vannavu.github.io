@@ -59,6 +59,7 @@ $(document).ready(function() {"use strict";
     }
   }
   cacheImages([
+    "/images/archive/post_contact.jpg",
     "/images/archive/google_maps.jpg",
     "/images/archive/tilde_landscape.jpg",
     "/images/archive/tilde_sunset.jpg",
