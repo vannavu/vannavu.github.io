@@ -9,6 +9,7 @@ layout: information
 > [v@vannavu.com](mailto:v@vannavu.com)   
 [IG: @vanna_vu](https://www.instagram.com/vanna_vu/)  
 &nbsp;  
+↗ [Phase One](https://vannavu.com/phase_one/)  
 ↗ [Are.na](https://www.are.na/vanna-vu/blocks?sort=UPDATED_AT)  
 ↗ [Fall 2018 archive](https://vannavu.com/referencerepository/)  
 
