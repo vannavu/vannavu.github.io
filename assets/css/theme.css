@@ -656,6 +656,12 @@ h1.information a span, .information h1 span {
   margin-left: -0.9rem;
 }
 
+.annotations h5 {
+  font-size: 0.85rem;
+  margin: -2rem 0 1rem 0;
+  font-variation-settings: 'wght' 420;
+}
+
 /* INFORMATION */
 .information {
   --bg: var(--information_bg);
