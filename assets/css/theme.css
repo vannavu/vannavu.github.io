@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: SourceCodePro;
-  src: url('../fonts/SourceCodeVariable-Roman.ttf');
+  src: url('../fonts/SourceCodeVariable-Roman.subset.woff2');
 }
 
 @font-face {
