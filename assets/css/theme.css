@@ -8,6 +8,11 @@
 }
 
 @font-face {
+  font-family: SourceCodeProItalic;
+  src: url('../fonts/SourceCodeVariable-Italic.subset.woff2');
+}
+
+@font-face {
   font-family: 'Orientation';
   src: url('../fonts/Orientation-Regular-Web.woff2') format('woff2'),
        url('../fonts/Orientation-Regular-Web.woff') format('woff');
@@ -37,6 +42,8 @@
   --content_margin: calc(var(--header_height));
   --h1_basesize: 3.5rem;
   --SourceCodePro: 'wght' 380;
+  --SourceCodeProItalic: 'wght' 380;
+  --SourceCodeProItalicBold: 'wght' 600;
 }
 
 * {
@@ -97,6 +104,23 @@ main {
 main img {
   width: calc(139%);
   box-shadow: -2px 2px 4px var(--shadow_color);
+}
+
+main p strong {
+  font-variation-settings: 'wght' 600;
+  font-weight: 600;
+}
+
+main p em {
+  font-family: SourceCodeProItalic;
+  font-variation-settings: var(--SourceCodeProItalic);
+  font-style: normal;
+}
+
+main p strong em {
+  font-family: SourceCodeProItalic;
+  font-variation-settings: var(--SourceCodeProItalicBold);
+  font-style: normal;
 }
 
 main p, main h3 {
@@ -537,7 +561,6 @@ h1.information a span, .information h1 span {
 }
 
 .fragments h3 a {
-  font-style: italic;
   border-bottom: 1px dotted var(--txt);
 }
 
