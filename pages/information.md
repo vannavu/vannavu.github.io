@@ -7,7 +7,6 @@ layout: information
 ![](/images/portrait.jpg)
 
 > [v@vannavu.com](mailto:v@vannavu.com)   
-[IG: @vanna_vu](https://www.instagram.com/vanna_vu/)  
 &nbsp;  
 ↗ [Phase One](https://vannavu.com/phase_one/)  
 ↗ [Are.na](https://www.are.na/vanna-vu/blocks?sort=UPDATED_AT)  
