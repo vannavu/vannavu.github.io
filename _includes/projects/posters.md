@@ -17,12 +17,6 @@
 
 <br>
 
-![](/images/posters/beachhouse.jpg)
-
-### Custom type echoing the rhythms of the band Beach House (2018)
-
-<br>
-
 ![](/images/posters/jewelbox.jpg)
 
 ### Custom and modified type drawn to reflect the Jewel Box, an art deco green house (2018)
