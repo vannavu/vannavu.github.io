@@ -8,13 +8,14 @@ layout: information
 
 > [v@vannavu.com](mailto:v@vannavu.com)   
 &nbsp;  
+↗ [Phase Two](https://vannavu.com/phase_two/)  
 ↗ [Phase One](https://vannavu.com/phase_one/)  
 ↗ [Are.na](https://www.are.na/vanna-vu/blocks?sort=UPDATED_AT)  
 ↗ [Fall 2018 archive](https://vannavu.com/referencerepository/)  
 
 ### [Typo]graphic & interactive&nbsp;designer
 
-Originally from Bentonville, Arkansas. Completed my BFA in Communication Design at Washington University in St. Louis in 2019. Currently based in Minneapolis.
+Originally from Bentonville, Arkansas. Completed my BFA in Communication Design at Washington University in St. Louis in 2019. Currently based in Minneapolis. They/she.
 
 Often I roam around systems of shape, color, and type, crafting in various media: websites, books, paper objects, programmed animations, vague poetics, type design.  
 
