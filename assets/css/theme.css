@@ -10,8 +10,19 @@
   src: url('../fonts/SourceCodeVariable-Italic.subset.woff2');
 }
 
+@font-face {
+  font-family: Xanh Mono Regular;
+  src: url('../fonts/XanhMono-Regular.woff2');
+}
+
+@font-face {
+  font-family: Xanh Mono Italic;
+  src: url('../fonts/XanhMono-Italic.woff2');
+}
+
 :root {
   --root_ptsize: 15px;
+  --xanhmono: 20px;
   --bg: whitesmoke;
   --txt: black;
   --header_height: 51px;
@@ -24,7 +35,6 @@
 
 * {
   list-style: none;
-  font-size: var(--root_ptsize);
   box-sizing: border-box;
   margin: 0;
   font-weight: normal;
@@ -45,7 +55,7 @@ body {
   font-family: SourceCodePro;
   font-variation-settings: var(--SourceCodePro);
   font-feature-settings: "liga", "kern";
-  font-size: 1rem;
+  font-size: var(--root_ptsize);
   line-height: 1.45;
   padding: 4rem 0 4rem 0;
 }
@@ -58,6 +68,11 @@ a {
 @keyframes fadein {
   0% {opacity: 0;}
   100% {opacity: 1;}
+}
+
+.home {
+  font-family: Xanh Mono, monospace;
+  font-size: var(--xanhmono);
 }
 
 main {
@@ -158,6 +173,8 @@ main blockquote img {
   width: calc(25% - 50px);
   animation: fadein 0.5s;
   padding-top: 0.18rem;
+  font-family: Xanh Mono, monospace;
+  font-size: var(--xanhmono);
 }
 
 .sidebar ul {
@@ -179,16 +196,19 @@ main blockquote img {
 }
 
 .sidebar a:hover {
-  font-variation-settings: 'wght' 550;
+  font-family: Xanh Mono Italic, monospace;
+  /*font-variation-settings: 'wght' 550;*/
   transition: all 0.3s;
 }
 
 h2 /* post date */ {
+  font-family: Xanh Mono, monospace;
+  font-size: var(--xanhmono);
   margin-bottom: 1.5rem;
 }
 
 .post_date {
-  padding: 0.18rem 0.5rem;
+  padding: 0.18rem 0.3rem;
   background: var(--txt);
   color: var(--bg);
   border: 1px solid black;
@@ -201,8 +221,8 @@ h2 /* post date */ {
 }
 
 h3, h4 /* larger in-post text */ {
-  font-variation-settings: 'wght' 100;
-  font-size: 2rem;
+  font-variation-settings: 'wght' 300;
+  font-size: 1.5rem;
   line-height: 1.25;
 }
 
@@ -262,29 +282,47 @@ main ul p {
 }
 
 main ul.index {
+  font-family: Xanh Mono, monospace;
+  font-size: var(--xanhmono);
   border: none;
   padding: 0;
 }
 
 main ul.index li {
-  margin-bottom: 0.5rem;
-  padding-left: 6.6rem;
-  text-indent: -6.6rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+  padding-left: 6.9rem;
+  text-indent: -6.9rem;
 }
 
 main ul.index li a {
   transition: all 0.3s;
 }
 
-main ul.index li a:hover {
-  font-variation-settings: 'wght' 550;
-  transition: all 0.3s;
+main ul.index li a:hover .index_post_title {
+  font-family: Xanh Mono Italic, monospace;
 }
 
 /* about */
+main#about h3 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-family: Xanh Mono Italic, monospace;
+}
+
+main#about p a {
+  font-family: Xanh Mono, monospace;
+  border: none;
+}
+
+main#about p a:hover {
+  font-family: Xanh Mono Italic, monospace;
+  border: none;
+}
+
 main#about ul {
   padding: 0;
-  margin: 0;
+  margin: 0 0 2.4rem 0;
   border: none;
 }
 
@@ -292,10 +330,11 @@ main#about ul li {
   list-style: none;
   padding-left: 1.2rem;
   text-indent: -1.2rem;
+  margin-bottom: 0.25rem;
 }
 
 main#about ul li::before {
-  content: "↗ ";
+  content: "— ";
 }
 
 main#about ul li:first-child::before {
@@ -303,11 +342,23 @@ main#about ul li:first-child::before {
 }
 
 main#about ul li a {
-  border-bottom: 1px dotted black;
+  font-family: Xanh Mono, monospace;
 }
 
 main#about ul li a:hover {
-  border-bottom: 1px solid black;
+  font-family: Xanh Mono Italic, monospace;
+}
+
+main#about h5 a {
+  font-family: SourceCodePro, monospace;
+  border: none;
+  transition: 0.6s all;
+}
+
+main#about h5 a:hover {
+  font-family: SourceCodePro, monospace;
+  font-variation-settings: 'wght' 600;
+  transition: 0.6s all;
 }
 
 ol {
