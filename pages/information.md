@@ -4,7 +4,7 @@ permalink: /information/
 layout: information
 ---
 
-![](/images/portrait.jpg)
+![](/images/archive/moire.jpg)
 
 > [v@vannavu.com](mailto:v@vannavu.com)   
 &nbsp;  
@@ -15,7 +15,7 @@ layout: information
 
 ### Typographic & interactive designer
 
-Originally from Bentonville, Arkansas. Completed my BFA in Communication Design at Washington University in St. Louis in 2019. Currently based in Minneapolis. They/she.
+Currently based in Minneapolis. Completed my BFA in Communication Design at Washington University in St. Louis in 2019. Originally from Bentonville, Arkansas. They/she.
 
 Often I roam around systems of shape, color, and type, thinking in various media: websites, writing, books, paper objects, programmed animations, vague poetics, type design.  
 
