@@ -4,15 +4,12 @@
   {% include head.html %}
 
   <body class="home">
-    <div id="graph"></div>
-      {% include header.html %}
       <div class="wrapper">
-      {% include logo.html %}
-      <main class="page-content" aria-label="Content">
-        {{ content }}
-      </main>
-
-      {% include footer.html %}
+        {% include header.html %}
+        {% include sidebars/sidebar.html %}
+        <main class="page-content" aria-label="Content">
+          {{ content }}
+        </main>
     </div>
 
   </body>
