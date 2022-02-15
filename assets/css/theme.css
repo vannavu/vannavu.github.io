@@ -420,7 +420,6 @@ main ol ul li {
 @media only screen and (max-width: 1000px) {
   :root {
     --root_ptsize: 15px;
-    --h1_basesize: 12vw;
   }
   body {
     padding: 0;
@@ -453,6 +452,9 @@ main ol ul li {
     display: block;
     left: 0;
     width: 100%;
+  }
+  main#about h3 {
+    font-size: var(--xanhmono);
   }
   h5, h6 {
     width: 100%;
