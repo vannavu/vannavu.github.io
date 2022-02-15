@@ -311,6 +311,10 @@ main#about h3 {
   margin-bottom: 1.5rem;
 }
 
+main#about p {
+  width: 100%;
+}
+
 main#about p a {
   font-family: Xanh Mono Regular, monospace;
   border: none;
