@@ -71,7 +71,7 @@ a {
 }
 
 .home {
-  font-family: Xanh Mono, monospace;
+  font-family: Xanh Mono Regular, monospace;
   font-size: var(--xanhmono);
 }
 
@@ -173,7 +173,7 @@ main blockquote img {
   width: calc(25% - 50px);
   animation: fadein 0.5s;
   padding-top: 0.18rem;
-  font-family: Xanh Mono, monospace;
+  font-family: Xanh Mono Regular, monospace;
   font-size: var(--xanhmono);
 }
 
@@ -202,7 +202,7 @@ main blockquote img {
 }
 
 h2 /* post date */ {
-  font-family: Xanh Mono, monospace;
+  font-family: Xanh Mono Regular, monospace;
   font-size: var(--xanhmono);
   margin-bottom: 1.5rem;
 }
@@ -282,7 +282,7 @@ main ul p {
 }
 
 main ul.index {
-  font-family: Xanh Mono, monospace;
+  font-family: Xanh Mono Regular, monospace;
   font-size: var(--xanhmono);
   border: none;
   padding: 0;
@@ -311,7 +311,7 @@ main#about h3 {
 }
 
 main#about p a {
-  font-family: Xanh Mono, monospace;
+  font-family: Xanh Mono Regular, monospace;
   border: none;
 }
 
@@ -342,7 +342,7 @@ main#about ul li:first-child::before {
 }
 
 main#about ul li a {
-  font-family: Xanh Mono, monospace;
+  font-family: Xanh Mono Regular, monospace;
 }
 
 main#about ul li a:hover {
@@ -422,6 +422,9 @@ main ol ul li {
     --root_ptsize: 15px;
     --h1_basesize: 12vw;
   }
+  body {
+    padding: 0;
+  }
   .wrapper {
     min-width: auto;
     width: 90vw;
@@ -429,13 +432,12 @@ main ol ul li {
   .sidebar{
     display: block;
     width: 100%;
-    border-top: 1px solid var(--txt);
     border-bottom: 1px solid var(--txt);
     background: var(--bg);
     margin: 0 0 3rem 0;
     padding: 0.8rem 0 0.6rem 0;
     position: sticky;
-    top: -1px;
+    top: 0px;
     z-index: 999;
   }
   .sidebar ul li {
