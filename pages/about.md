@@ -14,6 +14,6 @@ projects
 ↗ [Ambi](http://typewest2021.letterformarchive.org/VannaVu_Ambi.html){:target="_blank"} (2021)    
 ↗ [Blaub](https://displaytypedesign.com/projects/Vanna_Vu.html){:target="_blank"} (2020)   
 ↗ [Zazz](https://vannavu.com/zazz/){:target="_blank"} (2019)  
-↗ [100 Years]({{site.url}}/100_years/) (2018–19)  
+↗ [100 Years]({{site.url}}/100_years) (2018–19)  
 
 
