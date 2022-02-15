@@ -15,7 +15,7 @@ archives : [are.na](https://www.are.na/vanna-vu/blocks?sort=UPDATED_AT){:target=
 - [Blaub](https://displaytypedesign.com/projects/Vanna_Vu.html){:target="_blank"} (2020)   
 - [Zazz](https://vannavu.com/zazz/){:target="_blank"} (2019)  
 - [100 Years]({{site.url}}/100_years) (2018–19)  
-- [Keynote Club](https://www.instagram.com/keynoteclub/){:target="_blank"} (2020) : Posters made over Keynote. Organized and created by V.E. Chen.
+- [Keynote Club](https://www.instagram.com/keynoteclub/){:target="_blank"} (2020) : Improvisational posters collaboratively made in real time over Keynote. Organized and ideated by V.E. Chen.
 
 
 ##### [[Xanh Mono](https://github.com/yellow-type-foundry/xanhmono){:target="_blank"}][[Source Code](https://github.com/adobe-fonts/source-code-pro){:target="_blank"}]
