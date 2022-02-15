@@ -220,7 +220,13 @@ h2 /* post date */ {
   padding: 0.18rem 0.5rem;
   background: var(--txt);
   color: var(--bg);
+  border: 1px solid black;
+}
 
+.post_title {
+  padding: 0.18rem 0.5rem;
+  border: 1px dotted black;
+  border-left: 1px solid black;
 }
 
 h3, h4 /* larger in-post text */ {
