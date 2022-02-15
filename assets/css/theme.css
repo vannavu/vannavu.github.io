@@ -305,9 +305,10 @@ main ul.index li a:hover .index_post_title {
 
 /* about */
 main#about h3 {
-  font-size: 1.8rem;
-  line-height: 1.5;
+  font-size: 2rem;
+  line-height: 1.45;
   font-family: Xanh Mono Italic, monospace;
+  margin-bottom: 1.5rem;
 }
 
 main#about p a {
@@ -453,9 +454,6 @@ main ol ul li {
     left: 0;
     width: 100%;
   }
-  main#about h3 {
-    font-size: var(--xanhmono);
-  }
   h5, h6 {
     width: 100%;
   }
@@ -490,6 +488,9 @@ main ol ul li {
   }
   h4 {
     left: 0;
+  }
+  main#about h3 {
+    font-size: calc(var(--xanhmono) * 1.25);
   }
   
 }
