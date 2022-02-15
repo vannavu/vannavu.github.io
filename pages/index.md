@@ -18,6 +18,6 @@ archives : [are.na](https://www.are.na/vanna-vu/all?sort=UPDATED_AT){:target="_b
 - [Keynote Club](https://www.instagram.com/keynoteclub/){:target="_blank"} (2020) : Improvisational posters collaboratively made in real time over Keynote. Organized and ideated by V.E. Chen.
 
 
-##### [[Xanh Mono](https://github.com/yellow-type-foundry/xanhmono){:target="_blank"}][[Source Code](https://github.com/adobe-fonts/source-code-pro){:target="_blank"}]
+##### [[Xanh Mono](https://fonts.google.com/specimen/Xanh+Mono#about){:target="_blank"}][[Source Code](https://github.com/adobe-fonts/source-code-pro){:target="_blank"}]
 
 
