@@ -170,7 +170,7 @@ main blockquote img {
   position: sticky;
   top: 4rem;
   display: inline-block;
-  width: calc(25% - 50px);
+  width: calc(20% - 50px);
   animation: fadein 0.5s;
   padding-top: 0.18rem;
   font-family: Xanh Mono Regular, monospace;
@@ -272,7 +272,7 @@ h5 a:hover, h6 a:hover {
 main ul {
   padding-left: 1.75rem;
   border-left: 1px solid var(--txt);
-  width: 72%;
+  width: calc(80% - 50px);
   margin-bottom: 1rem;
   line-height: 1.7rem;
 }
