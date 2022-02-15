@@ -8,7 +8,7 @@ layout: home
 
 [v@vannavu.com](mailto:v@vannavu.com) / [@vanna_vu](https://www.instagram.com/vanna_vu/){:target="_blank"}
   
-archives : [Are.na](https://www.are.na/vanna-vu/blocks?sort=UPDATED_AT){:target="_blank"} / [fall 2018](https://vannavu.com/referencerepository/){:target="_blank"}  
+archives : [are.na](https://www.are.na/vanna-vu/blocks?sort=UPDATED_AT){:target="_blank"} / [fall 2018](https://vannavu.com/referencerepository/){:target="_blank"}  
 
 - projects
 - [Ambi](http://typewest2021.letterformarchive.org/VannaVu_Ambi.html){:target="_blank"} (2021)    
