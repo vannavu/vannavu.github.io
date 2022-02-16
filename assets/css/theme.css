@@ -355,6 +355,11 @@ main#about ul li a:hover {
   font-family: Xanh Mono Italic, monospace;
 }
 
+main#about em {
+  font-family: Xanh Mono Italic, monospace;
+  font-size: var(--xanhmono);
+}
+
 main#about h5 a {
   font-family: SourceCodePro, monospace;
   border: none;

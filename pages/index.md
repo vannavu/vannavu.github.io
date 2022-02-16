@@ -4,7 +4,9 @@ permalink: /
 layout: home
 ---
 
-### Typographic designer living in Minneapolis. Originally from Bentonville, Arkansas. Child of Vietnamese immigrants. They/she. Aspiring library (not librarian).
+### designer living in Minneapolis — Vietnamese American originally from Bentonville, Arkansas  — they/she — aspiring library
+
+currently in headspace : *typography, food & fashion, small internet, histories, satire & absurdity, critical education, business & culture, poetics*
 
 [v@vannavu.com](mailto:v@vannavu.com) / [@vanna_vu](https://www.instagram.com/vanna_vu/){:target="_blank"}
   
