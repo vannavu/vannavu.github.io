@@ -347,7 +347,7 @@ main#about a:hover::before, main#about a:hover::after {
 main#about ul {
   width: 100%;
   padding: 0;
-  margin: 0 0 1rem 0;
+  margin: 0 0 6rem 0;
   border: none;
 }
 
@@ -371,20 +371,13 @@ main#about em {
   font-size: var(--xanhmono);
 }
 
-main#about h5 {
-  margin-top: 5rem;
-}
-
 main#about h5 a {
   font-family: SourceCodePro, monospace;
   border: none;
-  transition: 0.6s all;
 }
 
 main#about h5 a:hover {
-  font-family: SourceCodePro, monospace;
-  font-variation-settings: 'wght' 600;
-  transition: 0.6s all;
+  font-family: SourceCodeProItalic, monospace;
 }
 
 main#about h5 a::before, main#about h5 a::after {

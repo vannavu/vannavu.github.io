@@ -1,6 +1,6 @@
 ---
 title: long scroll
-permalink: /all
+permalink: /long_scroll
 layout: default
 ---
 {% for post in site.posts reversed %}

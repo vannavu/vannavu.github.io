@@ -1,6 +1,6 @@
 ---
-title: site index
-permalink: /site_index
+title: post index
+permalink: /post_index
 layout: default
 ---
 

@@ -6,9 +6,6 @@ layout: home
 
 ### designer living in Minneapolis — Vietnamese American originally from Bentonville, Arkansas  — they/she — aspiring library
 
-[v@vannavu.com](mailto:v@vannavu.com)
-[@vanna_vu](https://www.instagram.com/vanna_vu/){:target="_blank"}
-
 current headspace : 
 [histories](https://prairieschooner.unl.edu/blog/i-thought-what-i-survived-deserved-recognition-poetry-paul-tran){:target="_blank"} 
 [typography](https://fontsinuse.com/uses/11193/huy-fong-sriracha-hot-sauce-label){:target="_blank"}
@@ -32,6 +29,9 @@ archives :
 - [Zazz](https://vannavu.com/zazz/){:target="_blank"} (2019)  
 - [100 Years]({{site.url}}/100_years) (2018–19)  
 - [Keynote Club](https://www.instagram.com/keynoteclub/){:target="_blank"} (2020) : Improvisational posters collaboratively made in real time over Keynote. Organized and ideated by V.E. Chen.
+
+[v@vannavu.com](mailto:v@vannavu.com)
+[@vanna_vu](https://www.instagram.com/vanna_vu/){:target="_blank"}
 
 ##### [[Xanh Mono](https://fonts.google.com/specimen/Xanh+Mono#about){:target="_blank"}][[Source Code](https://github.com/adobe-fonts/source-code-pro){:target="_blank"}]
 
