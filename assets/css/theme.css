@@ -112,11 +112,11 @@ main strong em {
   font-style: normal;
 }
 
-main p a, .sidebar p a {
+main p a {
   border-bottom: 1px dotted var(--txt);
 }
 
-main p a:hover, .sidebar p a:hover {
+main p a:hover {
   border-bottom: 1px solid var(--txt);
 }
 
@@ -221,8 +221,8 @@ h2 /* post date */ {
 }
 
 h3, h4 /* larger in-post text */ {
-  font-variation-settings: 'wght' 300;
-  font-size: 1.5rem;
+  font-family: Xanh Mono, monospace;
+  font-size: 1.7rem;
   line-height: 1.25;
 }
 
@@ -230,11 +230,16 @@ h3 {
   margin-bottom: 1rem;
 }
 
+h3 em {
+  font-family: Xanh Mono Italic, monospace;
+}
+
 h4 {
-  padding-left: 0.6em; /* width of quotation mark */
-  text-indent: -0.6em;
+  font-family: Xanh Mono Italic, monospace;
+  padding-left: 0.5em; /* width of quotation mark */
+  text-indent: -0.5em;
   position: relative;
-  left: -0.6em;
+  left: -0.5em;
 }
 
 h4::before /* pull quotes */ {

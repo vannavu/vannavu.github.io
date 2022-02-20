@@ -4,9 +4,9 @@ permalink: /100_years
 layout: default
 ---
 
-### 100 Years
-
 ![]({{ site.url }}/images/100_years.gif)
+
+### *100 Years*
 
 Yesterday was, today is, tomorrow will be: coptic-bound books visualizing an ambitious lifetime of 100 years.
 
