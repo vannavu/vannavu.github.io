@@ -315,49 +315,59 @@ main#about p {
   width: 100%;
 }
 
-main#about p a {
+main#about a {
   font-family: Xanh Mono Regular, monospace;
   border: none;
 }
 
-main#about p a:hover {
+main#about a::before {
+  content: "[";
+  margin-right: 0.3rem;
+}
+
+main#about a::after {
+  content: "]";
+  margin-left: 0.3rem;
+}
+
+main#about a:hover {
   font-family: Xanh Mono Italic, monospace;
   border: none;
+}
+
+main#about a:hover::before, main#about a:hover::after {
+  font-family: Xanh Mono, monospace;
 }
 
 main#about ul {
   width: 100%;
   padding: 0;
-  margin: 0 0 2.4rem 0;
+  margin: 0 0 1rem 0;
   border: none;
 }
 
 main#about ul li {
   list-style: none;
-  padding-left: 1.2rem;
-  text-indent: -1.2rem;
+  padding-left: 2.1rem;
+  text-indent: -2.1rem;
   margin-bottom: 0.25rem;
 }
 
 main#about ul li::before {
-  content: "— ";
+  content: "# ";
 }
 
 main#about ul li:first-child::before {
   content: "";
 }
 
-main#about ul li a {
-  font-family: Xanh Mono Regular, monospace;
-}
-
-main#about ul li a:hover {
-  font-family: Xanh Mono Italic, monospace;
-}
-
 main#about em {
   font-family: Xanh Mono Italic, monospace;
   font-size: var(--xanhmono);
+}
+
+main#about h5 {
+  margin-top: 5rem;
 }
 
 main#about h5 a {
@@ -370,6 +380,10 @@ main#about h5 a:hover {
   font-family: SourceCodePro, monospace;
   font-variation-settings: 'wght' 600;
   transition: 0.6s all;
+}
+
+main#about h5 a::before, main#about h5 a::after {
+  content: "";
 }
 
 ol {
