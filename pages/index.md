@@ -4,7 +4,7 @@ permalink: /
 layout: home
 ---
 
-### designer living in Minneapolis — Vietnamese American originally from Bentonville, Arkansas  — they/she — aspiring library
+*designer living in Minneapolis — Vietnamese American originally from Bentonville, Arkansas  — they/she — constantly liminal — aspiring library*
 
 current headspace : 
 [histories](https://prairieschooner.unl.edu/blog/i-thought-what-i-survived-deserved-recognition-poetry-paul-tran){:target="_blank"} 

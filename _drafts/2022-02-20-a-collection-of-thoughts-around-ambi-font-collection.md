@@ -1,6 +1,6 @@
 ---
 layout: post
-title: the attempt of Ambi font collection
+title: A collection of thoughts around Ambi font collection
 ---
 
 #### I think a lot of people will make a sculpture when they really want to write a paragraph… it takes a lot to make art as critique work.
@@ -8,7 +8,7 @@ title: the attempt of Ambi font collection
 
 [Ambi](http://typewest2021.letterformarchive.org/VannaVu_Ambi.html){:target="_blank"} was a cloudy attempt at contributing to Vietnamese American visual culture, which is nascent as the first major wave of Vietnamese immigrants arrived in the U.S. in the 1970’s. The project stems from examining the multi-genre typography Vietnamese American or Asian American food packaging and restaurants and extends into layered discourse on Asian American identity. The ambition is to have the project itself was a lens for me to critically think about racial identity and reclamation, hegemonic culture, and the treatment of the banal in type design. 
 
-the act of systematizing cultural forms into a typeface, which is then most often distributed through commodification and divorced from context. do you see the problem here?
+the act of systematizing cultural forms into a typeface, which is then most often distributed through commodification and divorced from the original context. do you see the problem here?
 
 ### Before typography came language.
 
@@ -47,7 +47,7 @@ How does material contribute to ideological development?: what allows material t
 ### 2. Context & influence
 I saw a student project branding an east coast Vietnamese restaurant. Their visual basis for the identity was Vietnam War propaganda and South Vietnamese Armed Forces tiger stripe camouflage which was later used by US Special Forces during the war. My initial reaction was *what the actual fuck?* How does recolorizing these visuals make sense for a restaurant? I was reminded how many people know of Vietnam firstly because of the Vietnam War. Classic American history textbook syndrome. When one who doesn't know the culture tries to go find authentic visuals to use, war is one of their first touchpoints. War, war, war. I hope this project is a resource, one way to expand the library.
 
-American culture and economy is built upon appropriating, colonizing, stealing cultures, so much so that we easily forget to ask or even realize when it occurs. If something is in the world, is it up for taking? Context? What about it? Pop culture does it all the time. The model is pervasive. Nobody cares. If I can use it to build my vision, I will. Designers are agents of culture. We synthesize what is around us. The Instagram likes reaffirm us. It is those outside who are able to critique most damningly.
+American culture and economy is built upon appropriating, colonizing, stealing cultures, so much so that we easily forget to ask or even realize when it occurs. If something is in the world, is it up for taking? Context? What about it? Pop culture does it all the time. The model is pervasive. Nobody cares. *If I can use it to build my vision, I will.* Designers are agents of culture. We synthesize what is around us. The Instagram likes reaffirm us. It is those outside who are able to critique most damningly.
 
 venn diagram, third culture theory
 
@@ -72,13 +72,13 @@ curriculum: agency in content, but what about form? how do you design a flexible
 it is so hard to make a design that critiques. why is that?
 
 ### 5. It was a fucking mess
-By building a  conventional type family model, I was limitless. oops.
+By building an unconventional type family model, I was limitless. oops.
 
-gvhIn becoming overwhelmed by all that was unwritten and the pressure of time, I began to lose commitment and confidence. I didn’t give full care as I didn’t respect my own work. I lacked belief. 
+In becoming overwhelmed by all that was unwritten and the pressure of time, I began to lose commitment and confidence. I didn’t give full care as I didn’t respect my own work. I lacked belief. 
 
 There are different types of perfection. It can be hard to discern which details matter when the intent isn’t clarified. The inability to prioritize compounding typeface edits is paralyzing. Critiques in the moment are also not really a discussion. I didn’t set space to fully reflect on critiques. What the critic sees and suggestions on what to do do not necessarily align. Critique brings the project into questioning.
 
-I was caught up in aesthetics when the question I was actually interested in was a matter of composition (typography)
+I was caught up in aesthetics when the question I was actually interested in was a matter of composition (typography), how the whole reflects the whole.
 
 ### 6. Post 
 I have begun building the language.
