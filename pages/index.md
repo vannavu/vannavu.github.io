@@ -9,7 +9,7 @@ layout: home
 current headspace : 
 [histories](https://prairieschooner.unl.edu/blog/i-thought-what-i-survived-deserved-recognition-poetry-paul-tran){:target="_blank"} 
 [typography](https://fontsinuse.com/uses/11193/huy-fong-sriracha-hot-sauce-label){:target="_blank"}
-[relationality](https://en.wikipedia.org/wiki/Relational_art){:target="_blank"}
+[relationality](https://www.e-flux.com/journal/106/314167/can-we-share-a-world-beyond-representation/){:target="_blank"}
 [parody](https://youtu.be/CT1st0QZPNE){:target="_blank"}
 [satire](https://www.e-flux.com/architecture/superhumanity/68641/the-story-of-peter-green-peter-chang/){:target="_blank"}
 [critical education](https://kairosschool.co.za/wp-content/uploads/2011/02/Teaching-as-a-Subversive-Activity.pdf){:target="_blank"}

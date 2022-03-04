@@ -3,8 +3,6 @@ layout: post
 title: vibe check (type west update)
 ---
 
-<div id="recent"></div>
-
 Process writing and regular reflection help me feel confident in my decisions, in that there is proof of lineage and things aren’t arbitrary. I haven’t been keeping up with logging my process, which I have been meaning to. Not doing it has been hindering me. I’ve been getting caught up in capturing a certain feeling in my typefaces that I’m not able to articulate, meanwhile forgetting to look back at where I came from to help define that. Other projects and work have been reminding me how lineage, history, gradual growth overtime are important for me to fully understanding what I’m making. It’s hard to start in the middle of in progress projects, for example. 
 
 I feel behind in the context of the program, as we are nearly halfway through the last term, but at a good pace in the whole of things or if I had been attempting to do this project on my own. Creating a whole family in a couple months is quite a bit when you’re not doing it full time and attempting it for the first time.

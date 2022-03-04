@@ -223,7 +223,7 @@ h2 /* post date */ {
 h3, h4 /* larger in-post text */ {
   font-family: Xanh Mono, monospace;
   font-size: 1.7rem;
-  line-height: 1.25;
+  line-height: 1.4;
 }
 
 h3 {
@@ -386,7 +386,7 @@ main#about h5 a::before, main#about h5 a::after {
 
 ol {
   padding: 0;
-  margin: 0 0 0 2.125rem;
+  margin: 0 0 1rem 2.125rem;
 }
 
 ol li {
