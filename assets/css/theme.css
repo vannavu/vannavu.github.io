@@ -410,9 +410,8 @@ main img[src*="#small"] {
 
 main .responsive_iframe {
   position: relative;
-  overflow: hidden;
   width: 100%;
-  padding-top: 56.25%;
+  padding-bottom: 56.25%;
   margin: 1rem 0 2.5rem 0;
 }
 

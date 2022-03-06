@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A collection of thoughts around Ambi font collection (Type West)
+title: collection of thoughts around Ambi font collection (Type West)
 ---
 
 Context: [[1](http://typewest2021.letterformarchive.org/VannaVu_Ambi.html){:target="_blank"}][[2](({{site.url}}/2021/11/02/vibe-check.html){:target="_blank"}){:target="_blank"}][[3](https://www.are.na/vanna-vu/aaa-jxtiy4lxami){:target="_blank"}]
@@ -16,6 +16,7 @@ I struggled throughout the project because I did not have all of the language, o
 
 The people who have largely given me language to think through these ideas are the poets Paul Tran and Ocean Vuong.
 
+<br>
 ### 1. Exigence
 Reflecting on my application to Type West (submitted on Halloween 2020?):
 
@@ -35,6 +36,7 @@ Library: my favorite part of my project [Zazz](vannavu.com/zazz/){:target="_blan
 
 without a group…: I came up creating in isolation, in the corner of bedrooms, at my own desk in school. Art and design were self-serving endeavors, an antidote to the routine rigor of memorizing facts for tests or being drilled essay after essay. Nowadays I don’t find much value in centering myself in it, and now that it is work, it is no longer therapeutic. I want to make work in groups and communities that have something to say. Socially I struggle with that. I am still learning how to collaborate and be a good supporter.
 
+<br>
 ### 2. Context & influence
 I saw a student project branding an east coast Vietnamese restaurant. Their visual basis for the identity was Vietnam War propaganda and South Vietnamese Armed Forces tiger stripe camouflage which was later used by US Special Forces during the war. My initial reaction was *what the actual fuck?* How does recolorizing these visuals make sense for a restaurant? I was reminded how many people know of Vietnam firstly because of the Vietnam War. Classic American history textbook syndrome. When one who doesn't know Vietnamese culture tries to go find authentic visuals to use, war is one of their first touchpoints. War, war, war. It’s limiting and shows that designers need to be cognizant of their perspective. I wonder if the initial depersonalization and focus on form in education is part of this problem. 
 
@@ -46,6 +48,7 @@ American culture and economy is built upon appropriating, colonizing, stealing c
 
 Systematizing cultural forms into a typeface, which is then most often distributed through commodification and divorced from the original context. Do you see the problem here?
 
+<br>
 ### 3. Intention, accident
 ![]({{ site.url }}/images/2022-03-06a.png)
 ###### (text repeated below)
@@ -56,7 +59,7 @@ Systematizing cultural forms into a typeface, which is then most often distribut
 
 –
 
-Ideas I wanted to communicate in individual fonts:
+Ideas I was interested in communicating through individual fonts:
 1. in-betweenness (cross-genre)
 2. reclamation through parody / humor as a disarming way to critique / aesthetic attraction and taste as a way to critique (re: stereotypical ethnic fonts)
 
@@ -68,8 +71,24 @@ Yes the creative process in general is often non-linear, but the *thinking* and 
 
 –
 
+Latin fonts that stereotype Chinese bastardize Chinese calligraphy by modularizing it in ignorant ways: 
+<div class="responsive_iframe">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YP9gEeVQZ2U?start=184" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+Did I bastardize Roman brush calligraphy and the concepts of rotation and translation through abstraction?
+
+![]({{ site.url }}/images/2022-03-06b.png)
+
+I was drawn to the ambiguous potential and the metaphor of overlapping an upright skeleton with an angled one. I also come from a more geometric/shape-based understanding of constructing letterforms, so this was a way of abstracting the stroke-based model of type design, helping me understand how to build the whole system. Depending on point of view / school of thought, it is either valid or invalid, inventive or naive. I’m conflicted. I am frustrated by the common educational model that you must learn the rules first to break them. Are they rules or conventions? Truth or dominating models?
+
+I do admire the work done before me. It is frictional to break those rules, feeling like I am working in opposition. Rather I seek to make my own rules, existing in parallel. It is difficult to unlearn. What I have to offer is not saying what has already been said or speaking in the same way.
+
+–
+
 Poetry doesn’t only communicate directly. It seeks to reinvent language itself, how form communicates. How does reinventing the structure of form transform language? Re: Univers, Futura.
 
+<br>
 ### 4. Modes of criticism: the space and frame of education
 It is so hard to make design that by itself critiques. Why is that?
 
@@ -86,6 +105,7 @@ Curriculum:
 
 Critique is the frame for the conversation and actionable iteration. When the critic is concerned with mechanics when you are concerned with concept, there is not productive conversation.
 
+<br>
 ### 5. What are the limits when working outside convention?
 By building an unconventional type family model, I was limitless. Oops. Overwhelmed.
 
@@ -93,6 +113,7 @@ By building an unconventional type family model, I was limitless. Oops. Overwhel
 
 There are different types of perfection. It can be hard to discern which details matter when the intent isn’t clarified. The inability to prioritize compounding typeface edits is paralyzing. Critiques in the moment are a discussion between the critic and your work more so than the critic and you. I didn’t set space to fully reflect on critiques. What the critic sees and what they suggest to do do not necessarily align. Critique brings the project into questioning. Blindly answering, responding without real intent, is a recipe for feeling lost. Consistent reflection is so important, and I did not do that for this project.
 
+<br>
 ### 6. Post 
 I struggled figuring out how to write about Ambi, largely because all of my writing on this site is written without an audience in mind. When there is a perceived audience, I feel a need to explain every facet of my thinking. I let go of that here. Perhaps those who get it, get it, and can make inference and connections with these thoughts that are placed in proximity to each other.
 
@@ -108,6 +129,7 @@ It takes a lot to unlearn and innovate when we inherit systems that weren't desi
 
 A truer vision of this project would be to invite Vietnamese-[] type designers to contribute fonts to a library. A collection and a culture is not built by one person. I am still learning how to collaborate effectively. I am unsure if I should wait and learn more until attempting to lead a project like this.
 
+<br>
 ### +
 Huệ Minh Cao made a [font](https://sharptype.co/news/the-malee-scholarship-2020-finalists/){:target="_blank"} whose modules began with Vietnamese diacritics. 
 
