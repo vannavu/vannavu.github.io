@@ -205,6 +205,7 @@ h2 /* post date */ {
   font-family: Xanh Mono Regular, monospace;
   font-size: var(--xanhmono);
   margin-bottom: 1.5rem;
+  line-height: calc(var(--xanhmono) * 1.55);
 }
 
 .post_date {
@@ -386,11 +387,13 @@ main#about h5 a::before, main#about h5 a::after {
 
 ol {
   padding: 0;
-  margin: 0 0 1rem 2.125rem;
+  margin: 0 0 1rem 1.7rem;
+  width: 72%;
 }
 
 ol li {
   list-style: decimal;
+  line-height: 1.7;
 }
 
 span.highlight {
@@ -490,7 +493,7 @@ main ol ul li {
   body {
     line-height: 1.5;
   }
-  main p, main ul, h5 {
+  main p, main ul, ol, h5 {
     width: 100%;
   }
   main img {
