@@ -1,6 +1,6 @@
 ---
-title: post index
-permalink: /post_index
+title: draft index
+permalink: /draft_index
 layout: default
 ---
 
