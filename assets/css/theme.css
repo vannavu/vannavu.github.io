@@ -222,7 +222,7 @@ h2 /* post date */ {
 }
 
 h3, h4 /* larger in-post text */ {
-  font-family: Xanh Mono, monospace;
+  font-family: Xanh Mono Regular, monospace;
   font-size: 1.7rem;
   line-height: 1.4;
 }
@@ -342,7 +342,7 @@ main#about a:hover {
 }
 
 main#about a:hover::before, main#about a:hover::after {
-  font-family: Xanh Mono, monospace;
+  font-family: Xanh Mono Regular, monospace;
 }
 
 main#about ul {
