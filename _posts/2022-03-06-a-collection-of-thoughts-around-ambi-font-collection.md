@@ -50,33 +50,15 @@ Systematizing cultural forms into a typeface, which is then most often distribut
 ![]({{ site.url }}/images/2022-03-06a.png)
 ###### (text repeated below)
 
-*Different languages necessitated combining
-different fonts. When cooking, immigrants without
-access to their native country’s ingredients adapt
-American ingredients to Asian dishes by finding
-overlaps in flavor and texture. In the typography,
-the fonts overlap in proportion, tool (commonly
-the brush), or expressive quality. Fundamentally
-the Asian American dish will not be the same as
-the “authentic original,” but it is authentic in that
-it reflects the geography and context of where it is
-made. In the same vein is the common struggle of
-feeling neither Asian or American and insecure in
-the identity of Asian American, as it is in-progress.
-Culture and identity is collectively built throught the
-accumulation of individual voices and confidence
-and pride is formed through diverse visibility.
-I did not want to distill this typography into a
-grayscale of one style, of one voice, but instead
-attempt to create a collection of editorial fonts,
-each style sharing attributes but having a distinct
-purpose and voice.*
+*Different languages necessitated combining different fonts. When cooking, immigrants without access to their native country’s ingredients adapt American ingredients to Asian dishes by finding overlaps in flavor and texture. In the typography, the fonts overlap in proportion, tool (commonly the brush), or expressive quality. Fundamentally the Asian American dish will not be the same as the “authentic original,” but it is authentic in that it reflects the geography and context of where it is made. In the same vein is the common struggle of feeling neither Asian or American and or feeling insecure in the identity of Asian American, as it is in-progress. Culture and identity is collectively built throught the accumulation of individual voices and confidence and pride is formed through diverse visibility.* 
+
+*I did not want to distill this typography into a grayscale of one style, of one voice, but instead attempt to create a collection of editorial fonts, each style sharing attributes but having a distinct purpose and voice.*
 
 –
 
 Ideas I wanted to communicate in individual fonts:
 1. in-betweenness (cross-genre)
-2. reclamation through parody / humor as a disarming way to critique / aesthetic attraction and taste as a way to critique
+2. reclamation through parody / humor as a disarming way to critique / aesthetic attraction and taste as a way to critique (re: stereotypical ethnic fonts)
 
 –
 
