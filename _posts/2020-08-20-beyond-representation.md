@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Beyond representation&colon; relationality & the plurastic self
+title: Beyond representation&colon; relationality & the pluralistic self
 tags: [August 2020]
 ---
 
