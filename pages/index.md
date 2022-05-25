@@ -16,7 +16,6 @@ archives :
 - [Blaub](https://displaytypedesign.com/projects/Vanna_Vu.html){:target="_blank"} (2020)   
 - [Zazz](https://vannavu.com/zazz/){:target="_blank"} (2019)  
 - [100 Years]({{site.url}}/100_years) (2018–19)  
-- [Keynote Club](https://www.instagram.com/keynoteclub/){:target="_blank"} (2020) : Improvisational posters collaboratively made in real time over Keynote. Organized and ideated by V.E. Chen.
 
 [v@vannavu.com](mailto:v@vannavu.com)
 
