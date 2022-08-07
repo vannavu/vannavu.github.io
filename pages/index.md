@@ -4,9 +4,6 @@ permalink: /
 layout: home
 ---
 
-current headspace : 
-[😶‍🌫️](https://youtu.be/YneFGMpju3U){:target="_blank"} 
-  
 archives : 
 [are.na](https://www.are.na/vanna-vu/all?sort=UPDATED_AT){:target="_blank"}
 [fall 2018](https://vannavu.com/referencerepository/){:target="_blank"}  
