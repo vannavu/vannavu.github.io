@@ -421,6 +421,11 @@ main img[src*="#small"] {
   width: 100%;
 }
 
+main img[src*="#vertical"] {
+  height: 90%;
+  width: auto;
+}
+
 main .responsive_iframe {
   position: relative;
   width: 100%;
