@@ -90,6 +90,10 @@ main img {
   width: calc(139%);
 }
 
+main blockquote + p img {
+  margin-top: 0;
+}
+
 main p {
   width: 72%;
   line-height: 1.7;
@@ -395,6 +399,16 @@ ol li {
   line-height: 1.7;
 }
 
+main ol p, main ol h6, main ol ul {
+  width: 100%;
+}
+
+main ol blockquote {
+  width: calc(28% - 40px + 1rem);
+  position: absolute;
+  left: calc(72% + 40px + 1rem);
+}
+
 span.highlight {
   background: #DCE4E4;
 }
@@ -411,7 +425,11 @@ main .responsive_iframe {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
-  margin: 1rem 0 2.5rem 0;
+  margin: 0 0 2.5rem 0;
+}
+
+main .responsive_iframe + h6 /* video caption */ {
+  margin: -2rem 0 1.5rem 0;
 }
 
 main iframe {
@@ -422,7 +440,6 @@ main iframe {
   right: 0;
   width: 100%;
   height: 100%;
-  margin: 1rem 0;
 }
 
 main blockquote p, main blockquote p em, main blockquote p a {
@@ -494,9 +511,19 @@ main ol ul li {
   main p, main ul, ol, h5 {
     width: 100%;
   }
+
+  main ol p, main ol h6, main ol ul {
+    width: calc(100% - 2rem);
+  }
+
   main img {
     width: 100%;
   }
+
+  main blockquote + p img {
+    margin-top: 1rem;
+  }
+
   main blockquote {
     width: 100%;
     float: none;
@@ -506,6 +533,19 @@ main ol ul li {
     padding: 0.75rem 0;
     margin-bottom: 1rem;
   }
+
+  main ol blockquote {
+    position: relative;
+    left: 0;
+    width: 100%;
+    float: none;
+    border-left: none;
+    border-top: 1px solid var(--txt);
+    border-bottom: 1px solid var(--txt);
+    padding: 0.75rem 0;
+    margin-bottom: 1rem;
+  }
+  
   h3, h4 {
     font-size: 1.5rem;
   }
