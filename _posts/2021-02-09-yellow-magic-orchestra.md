@@ -15,6 +15,6 @@ tags: [February 2021]
 ![]({{ site.url }}/images/2021-02-09b.gif#small)
 
 <div class="responsive_iframe">
-   <iframe src="https://www.youtube.com/embed/51P2cfrh9B0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+   <iframe src="https://www.youtube.com/embed/51P2cfrh9B0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 ###### full live YMO concerts: [[1](https://youtu.be/clNt7ba3N6A){:target="_blank"}][[2](https://youtu.be/3t8ZrI-26v4){:target="_blank"}][[3](https://youtu.be/y_X_zMKA7eo){:target="_blank"}]

@@ -17,3 +17,5 @@ Originally posted on 5.14.2020 on previous website version:
 
     Collecting and documenting material is essential for me to make anything, but I have been woefully out of practice doing so aside from sporadic Are.na saves and Google Docs annotations for a variety of half-read books. I have started a new reference repository to get back into active observation in addition to pinning up scraps to a foam board. I don’t knnow if I’m really interested in answers but rather a continuation of inquiries always leading elsewhere. Every time I arrive, I hang out in the corner, slowly move toward the center, but then exit to elsewhere. Problem is I’ve been in the ether for about a year now. I need to find that center of gravity again. I have always pulled toward type but perhaps the output is broader and just as much about language as it is form. Maybe I want to be more like a library than a type specimen. Senior year of college felt like Phase 0. So here is Phase 1, if it is even discrete.
 
+![]({{ site.url }}/images/2022-04-22.jpg#vertical)
+###### *Garden with Cosmic Vase*, Matthew Wong ([source](https://www.metmuseum.org/art/collection/search/848317)) 

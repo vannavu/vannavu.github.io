@@ -85,7 +85,7 @@ I took a month off any kind of work as I didn’t take time off all year. I didn
 
     It’s a lot. As Vietnamese people can be. Now that I think about it, a lot of Vietnamese people are not chill.
 
-    > ² [Linh Truong](https://www.youtube.com/channel/UCDivkE8Ckgk14fu1XChEp7w){:target="blank"}, [Dustin Vuong](https://www.youtube.com/user/DustinKVuong){:target="blank"}, [bestdressed](https://www.youtube.com/channel/UCnQhwPVwcP-DnbUZtIMrupw){:target="blank"}
+    > ² [Linh Truong](https://www.youtube.com/channel/UCDivkE8Ckgk14fu1XChEp7w){:target="blank"}, [Dustin Vuong](https://www.youtube.com/user/DustinKVuong){:target="blank"}, [bestdressed](https://www.youtube.com/channel/UCnQhwPVwcP-DnbUZtIMrupw){:target="blank"}  
 
     In any case, I have found some hardworking and impressive Asian American YouTubers² my age or younger that are on the platform to take advantage of the economic opportunity through a creative means, largely for the sake of paying for college, relating to peers through sharing transparent life and financial advice, talking about taboo subjects, and sharing anxieties. They are willing to for-go a certain amount of privacy, which is perhaps influenced through them coming up with social media, and they intentionally approach brand deals, saying straight up that it’s easy money. They have greater aspirations beyond YouTube. YouTube is a fun and lucrative tool, not something forever. It’s a way for these creators to gain independence and leverage. It’s inspiring, but also worrying. They are completely aware and willing to brand their identity, which can be hard to manage, and compromise with algorithms. If they didn’t have these financial pressures, would they still put themselves out there?
 
