@@ -86,16 +86,18 @@ Aisle 2 — three desaturated men bust in, faded t-shirts, trucker hats, round b
 
 Jesus christ.
 
-She thinks out loud “Dijon mustard… dijon mustard… we’ll have it in 2 weeks!” 
+She thinks out loud, “Dijon mustard… dijon mustard… we’ll have it in 2 weeks!” 
 
 :(
 
-I spot a small bag of shrimp chips. Classics. That’ll do. Labeled $1.99. I go up to the counter. She’s happy I’m buying something. I feel good I’m buying something. 
+I spot a small bag of shrimp chips. Classic. That’ll do. Labeled $1.99. I go up to the counter. She’s happy I’m buying something. I feel good I’m buying something. 
 
 “$2.57”
 
 I feel conflicted buying something. 
 
 I drive home in 11am traffic. Why is there 11am traffic.
+
+*Dijon mustard*
 
 :,)
