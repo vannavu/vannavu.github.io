@@ -36,7 +36,7 @@ From *Critique of Everyday Life* by Henri Lefebvre:
 ##### — Charles Baudelaire (chapter 1)
 
 I lack the awe of a child nowadays, but find solace and humor in the bizarre of the everyday, seeing things as they are, not glazing over them as untextured public occurrences.
-Not talking about intentional spectacles (e.g. tiktok challenges), but bizarre realities so common and embedded they go unacknowledged — novel vs. authentic — only observable, not preemptively thought. Spontaneous. Emergent rather than produced. Non-performative. This is why I love my cat and John Wilson. And to a degree, formerly working at a grocery store and witnessing everyday passersby.
+Not talking about intentional spectacles (e.g. tiktok dumbassery), but bizarre realities so common and embedded they go unacknowledged — novel vs. authentic — only observable, not preemptively thought. Spontaneous. Emergent rather than produced. Non-performative. This is why I love my cat and John Wilson. And to a degree, formerly working at a grocery store and witnessing everyday passersby.
 
 - ‘What is faith? A rope from which we dangle, unless we use it to hang ourselves with’  
     …  
