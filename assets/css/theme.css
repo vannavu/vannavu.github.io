@@ -25,6 +25,7 @@
   --xanhmono: 20px;
   --bg: whitesmoke;
   --txt: black;
+  --solid-border: 1px solid var(--txt);
   --header_height: 51px;
   --content_margin: calc(var(--header_height));
   --h1_basesize: 3.5rem;
@@ -121,7 +122,7 @@ main p a {
 }
 
 main p a:hover {
-  border-bottom: 1px solid var(--txt);
+  border-bottom: var(--solid-border);
 }
 
 main blockquote {
@@ -129,7 +130,7 @@ main blockquote {
   float: right;
   margin: 0;
   padding-left: 1rem;
-  border-left: 1px solid var(--txt);
+  border-left: var(--solid-border);
 }
 
 main blockquote p {
@@ -276,7 +277,7 @@ h5 a, h6 a {
 }
 
 h5 a:hover, h6 a:hover {
-  border-bottom: 1px solid var(--txt);
+  border-bottom: var(--solid-border);
 }
 
 .fit_text_to_width {
@@ -287,7 +288,7 @@ h5 a:hover, h6 a:hover {
 
 main ul {
   padding-left: 1.75rem;
-  border-left: 1px solid var(--txt);
+  border-left: var(--solid-border);
   width: calc(80% - 50px);
   margin-bottom: 1rem;
   line-height: 1.7rem;
@@ -417,6 +418,13 @@ main ol blockquote {
 
 span.highlight {
   background: #DCE4E4;
+}
+
+hr {
+  border: none;
+  border-top: var(--solid-border);
+  margin: 2rem 0;
+  width: 100%;
 }
 
 main img {
