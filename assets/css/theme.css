@@ -436,7 +436,7 @@ main img[src*="#small"] {
 }
 
 main img[src*="#vertical"] {
-  height: 90%;
+  height: 75vh;
   width: auto;
 }
 
@@ -540,6 +540,11 @@ main ol ul li {
 
   main img {
     width: 100%;
+  }
+
+  main img[src*="#vertical"] {
+    width: 100%;
+    height: auto;
   }
 
   main blockquote + p img {
