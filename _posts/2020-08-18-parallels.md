@@ -1,23 +1,7 @@
 ---
 layout: post
-title: “::”
-tags: [August 2020]
+title: “we left language / we came back”
 ---
-
-**nail salon :: graphic design** <br>
-creative labor largely in service of the rich white corporate (but who isn't under service of rich white corporations)
-
-**Christianity :: white supremacist patriarchy** <br>
-saviorism, worshipping individuals, a virgin giving birth, martyrdom, chants, prewritten prayers <br>
-living in a matriarchal household under a patriarchal society isn’t great either
-
-**design :: competition** <br>
-Modes of Criticism articles: “[Graphic Design Systems](https://modesofcriticism.org/graphic-design-systems/)” & “[It’s Nice That Intro](https://modesofcriticism.org/its-nice-that-intro/)”<br>
-hierarchies, standing out, grabbing attention, networking, awards, self-commodification <br>
-
-**American ~~dream~~ myth**
-
-—
 
 - There’s so much error in language <br>
   Everything we say turns out not right <br>
@@ -46,7 +30,3 @@ Raw emotion is indigestible. We often understand it through a medium, a material
 Storytelling and language feel essential to being a human though.
 
 So often in design and art, metaphor is another layer to interpret. It complicates the process. What and how does it mean to be straightforward? Why has Trump’s language angered the progressives while illuminating rural white America and conservative immigrants? Do we truly listen to those who do not speak like us?
-
-—
-
-Designers are agents of culture. And what is culture under a patriarchal capitalist white supremacy?
