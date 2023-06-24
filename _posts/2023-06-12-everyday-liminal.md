@@ -12,7 +12,6 @@ From the intro of *Liminality and the Modern: Living Through the In-Between* by 
     Liminality reminds us of the moment we left our parents’ home, that mixture of joy and anxiety, that strange combination of freedom and homelessness; that pleasant but unsettling sensation of infinity and openness of possibilities which — at some moment, sooner or later — will start searching for a new frame to settle within. And if it does not, the void will perpetuate, and anxiety with it.
 
 #### concepts are good to think with, but they do not bear their meaning within themselves  
-<br>
 
 - Liminality explains nothing. Liminality is. It happens. It takes place.  
     …  
