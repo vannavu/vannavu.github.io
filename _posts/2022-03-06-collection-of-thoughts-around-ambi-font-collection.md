@@ -3,7 +3,7 @@ layout: post
 title: collection of thoughts around Ambi font collection (Type West)
 ---
 
-Context: [[1](http://typewest2021.letterformarchive.org/VannaVu_Ambi.html){:target="_blank"}][[2](({{site.url}}/2021/11/02/vibe-check.html){:target="_blank"}){:target="_blank"}][[3](https://www.are.na/vanna-vu/aaa-jxtiy4lxami){:target="_blank"}]
+Context: [[1](https://typewest.letterformarchive.org/2021/VannaVu_Ambi.html){:target="_blank"}][[2](({{site.url}}/2021/11/02/vibe-check.html){:target="_blank"}){:target="_blank"}][[3](https://www.are.na/vanna-vu/aaa-jxtiy4lxami){:target="_blank"}]
 
 #### I think a lot of people will make a sculpture when they really want to write a paragraph… it takes a lot to make art as critique work.
 ##### — Betsy Ellison ([source](https://www.instagram.com/p/CX07_EMutsM/?utm_source=ig_web_copy_link){:target="_blank"})

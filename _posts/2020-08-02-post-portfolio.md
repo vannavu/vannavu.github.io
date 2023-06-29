@@ -25,6 +25,5 @@ Maybe that all sounds super ignorant. Bentonville, Arkansas is not Vietnamese-Am
 Is existing enough? Must everything be argued? I cannot rationalize the entirety of the self. "I think therefore I am" is a privileged statement.
 
 I was momentarily is a short-term Visual Criticism & Theory class (until realizing I overloaded myself with work, more work, and school), but one of the first exercises we did was writing down how we are privileged and not privileged. It's not so easily categorized, but dependent on context and who we are in proximity to given the moment. Largely I exist in the middle space, which means a certain level of empathy but also power. I am figuring out how to make the best of that to give leverage to others. So often in the past I simply lead by example, somewhat alone. Asking questions but unsure if anyone else truly pondered them too. I don't know if continuing to do as that is enough, if sharing is enough. One of my biggest weaknesses is collaboration. Why is that? I also rely on the nicety of others to spread the word about me. I do not assert or market myself really. As I don't really want to scale or submit myself. I guess a large part of that is that I am super isolated and not part of a community.
-Without that there is no horizontality but an insidious amount of individuality.
 
-Well this is what happens when I put off a reference repository. A dam breaks.
+Without that there is no horizontality but an insidious amount of individuality.

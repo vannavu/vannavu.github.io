@@ -320,6 +320,10 @@ main ul.index li a:hover .index_post_title {
   font-family: Xanh Mono Italic, monospace;
 }
 
+main ul ol {
+  width: 100%;
+}
+
 /* about */
 main#about h3 {
   font-family: Xanh Mono Italic, monospace;
