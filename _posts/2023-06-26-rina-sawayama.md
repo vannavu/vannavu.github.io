@@ -7,7 +7,7 @@ I haven’t been to a concert of an artist I liked since 2019. Started looking i
 
 I discovered her at a well-timed point as her second album *Hold the Girl* was written while she was going through therapy, and I will be starting long-term therapy in a month addressing some similar things. I’ve been sitting in my thoughts, and her music has really helped.
 
-She shows up, and I can wait to show up for her and dance like I never have. Gonna be a level above my experience at David Byrne’s *American Utopia* show whereafter my face hurt from smiling so much.
+She shows up, and I can’t wait to show up for her and dance like I never have. Gonna be a level above my experience at David Byrne’s *American Utopia* show, whereafter my face hurt from smiling so much.
 
 <div class="responsive_iframe">
     <iframe src="https://www.youtube.com/embed/Zdr1AsgBFCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
