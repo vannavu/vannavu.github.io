@@ -26,7 +26,7 @@ So I don’t really regret trying something that is less of a straight line. I s
 
 ![]({{ site.url }}/images/2021-11-02h.png)
 
-Another major inspiration and discovery of the year has of course been [Yellow Magic Orchestra](https://vannavu.com/phase_one/2021/02/09/yellow-magic-orchestra.html){:target="_blank"}, who in the 80’s reclaimed and transformed Japanese musical identity by skillfully parodying American perceptions of the Pacific East and [leveraging Japanese stereotypes](https://vannavu.com/phase_one/2021/04/09/eric-andre.html){:target="_blank"} via the new and unfamiliar synthesizer. I love that you can still appreciate the band without knowing that context.
+Another major inspiration and discovery of the year has of course been [Yellow Magic Orchestra](https://vannavu.com/2021/02/09/yellow-magic-orchestra.html){:target="_blank"}, who in the 80’s reclaimed and transformed Japanese musical identity by skillfully parodying American perceptions of the Pacific East and leveraging Japanese stereotypes via the new and unfamiliar synthesizer. I love that you can still appreciate the band without knowing that context.
 
 ![]({{ site.url }}/images/2021-11-02i.jpg)
 ###### photos by [Sophia Wilson](https://www.instagram.com/phiawilson/){:target="_blank"}
