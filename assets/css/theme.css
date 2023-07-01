@@ -452,7 +452,7 @@ main .responsive_iframe {
 }
 
 main .responsive_iframe + h6 /* video caption */ {
-  margin: -2rem 0 1.5rem 0;
+  margin: -1rem 0 1.5rem 0;
 }
 
 main iframe {
@@ -463,6 +463,7 @@ main iframe {
   right: 0;
   width: 100%;
   height: 100%;
+  margin-top: 1rem;
 }
 
 main blockquote p, main blockquote p em, main blockquote p a {
