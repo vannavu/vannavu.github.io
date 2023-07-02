@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Middle space
-tags: [August 2020]
 ---
 
 ### Middle space
