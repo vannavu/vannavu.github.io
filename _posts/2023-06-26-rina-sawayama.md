@@ -20,4 +20,4 @@ I haven’t been to a concert of an artist I liked since 2019. Started looking i
 <div class="responsive_iframe"> 
     <iframe src="https://www.youtube.com/embed/XojM2D3F-Dc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-###### h u m o r  baby
+###### humor, contrast, versatility

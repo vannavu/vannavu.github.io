@@ -6,7 +6,7 @@ tags: [January 2021]
 
 I wrote this some time late last year, in November maybe?
 
-- Meaningful relationships for me involve two growing besides each other. Tension occurs when the other doesn’t grow. Parents stop growing. Childhood friends stuck in hometowns stagnate. It takes time to grow, whether together or apart. To come from roots, trunk, branch, twig. Different branches, different sides of the tree. It mirrors the web of memories. Connected from a distance. I aim to grow toward the sun, while some stay at a certain junction, a certain spot on the tree. Then do we choose to become a seed? A deciduous leaf? A broken branch? A stump? 
+- Meaningful relationships for me involve two growing besides each other. Tension occurs when the other doesn’t grow. It takes time to grow, whether together or apart. To come from roots, trunk, branch, twig. Different branches, different sides of the tree. It mirrors the web of memories. Connected from a distance. I aim to grow toward the sun, while some stay at a certain junction, a certain spot on the tree. Then do we choose to become a seed? A deciduous leaf? A broken branch? A stump? 
 
     Currently I am often branching, pivoting elsewhere. But it’s impossible to fly elsewhere. You are rooted in the tree, in all its DNA. Without complete death or complete birth can you become anew. There is no starting over, just moving elsewhere.
 
