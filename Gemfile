@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 gem 'nokogiri'
-gem 'rack', '~> 2.2.13'
+gem 'rack', '~> 2.2.14'
 gem 'rspec'
 gem 'webrick'
 # Hello! This is where you manage which Jekyll version is used to run.
